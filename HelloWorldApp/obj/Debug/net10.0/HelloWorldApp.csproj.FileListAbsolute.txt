@@ -12,3 +12,4 @@ C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\HelloWorldApp\obj\Debug\net
 C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\HelloWorldApp\obj\Debug\net10.0\HelloWorldApp.pdb
 C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\HelloWorldApp\obj\Debug\net10.0\HelloWorldApp.genruntimeconfig.cache
 C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\HelloWorldApp\obj\Debug\net10.0\ref\HelloWorldApp.dll
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\HelloWorldApp\obj\Debug\net10.0\HelloWorldApp.sourcelink.json
