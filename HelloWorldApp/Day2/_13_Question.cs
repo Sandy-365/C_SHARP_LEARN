@@ -1,64 +1,164 @@
 /*
-==============================
-Design a Finance Control System
+NOTE:
 
-The system should perform the following tasks:
+This program implements a **Menu-Driven Finance Control System**
+using core C# programming concepts.
+
+==============================================================
+PROGRAM OVERVIEW
+==============================================================
+The system runs continuously until the user chooses to exit.
+It provides four major financial operations through a menu.
+
+Menu Options:
 1. Loan Eligibility Check
 2. Income Tax Calculation
 3. Transaction Entry System
 4. Exit Program
 
-The system should run continuously until the user chooses to exit.
-==============================
-Finance Rules Used
-Loan Eligibility Rules
+==============================================================
+1. LOAN ELIGIBILITY CHECK
+==============================================================
+Method:
+- checkLoanEligibility()
 
-Age must be 21 years or above
-Monthly income must be ₹30,000 or more
+Rules Applied:
+- Age must be 21 years or above
+- Monthly salary must be ₹30,000 or more
 
+Logic:
+- User enters age and salary
+- Uses logical AND (&&) with if–else
+- Displays eligibility result
 
--------------------------------------------
-Income Tax Rules
-Annual Income and Tax Rate
-≤ ₹2,50,000 = 0%
-₹2,50,001 – ₹5,00,000 = 5%
-₹5,00,001 – ₹10,00,000 = 20%
-Above ₹10,00,000 = 30%
+Concepts Used:
+- Input handling
+- Conditional statements
+- Logical operators
 
-lets Income = ₹6,00,000
-Tax Calculation
-Up to ₹2,50,000
-Tax = 0%
+==============================================================
+2. INCOME TAX CALCULATION
+==============================================================
+Method:
+- calculateTax()
+
+Tax Slabs Used:
+- ≤ ₹2,50,000        → 0%
+- ₹2,50,001–₹5,00,000 → 5%
+- ₹5,00,001–₹10,00,000 → 20%
+- Above ₹10,00,000     → 30%
+
+Logic:
+- Progressive tax calculation
+- Tax calculated slab by slab
+- Final tax displayed to user
+
+Example:
+Income = ₹6,00,000
+Tax Slabs Applied (India – Old Regime)
+
+------------------------------------------------
+Step 1: Income up to ₹2,50,000
+------------------------------------------------
+Tax Rate = 0%
 Tax Amount = ₹0
 
-₹2,50,001 – ₹5,00,000 (₹2,50,000)
-Tax = 5%
-Tax Amount = ₹12,500
+------------------------------------------------
+Step 2: Income from ₹2,50,001 to ₹5,00,000
+------------------------------------------------
+Taxable Amount = ₹5,00,000 − ₹2,50,000
+                = ₹2,50,000
 
-₹5,00,001 – ₹6,00,000 (₹1,00,000)
-Tax = 20%
-Tax Amount = ₹20,000
+Tax Rate = 5%
+Tax Amount = 5% of ₹2,50,000
+           = ₹12,500
 
-Total Tax Payable -- ₹12,500 + ₹20,000 = ₹32,500
-Final Answer -- You will pay ₹32,500 as income tax
+------------------------------------------------
+Step 3: Income from ₹5,00,001 to ₹6,00,000
+------------------------------------------------
+Taxable Amount = ₹6,00,000 − ₹5,00,000
+                = ₹1,00,000
+
+Tax Rate = 20%
+Tax Amount = 20% of ₹1,00,000
+           = ₹20,000
+
+------------------------------------------------
+TOTAL TAX CALCULATION
+------------------------------------------------
+₹12,500 + ₹20,000
+= ₹32,500
+
+------------------------------------------------
+FINAL ANSWER
+------------------------------------------------
+If your annual income is ₹6,00,000  
+You will pay ₹32,500 as income tax
 
 
---------------------------------------------
-Transaction Rules
-User can enter 5 transactions
-Negative amount is invalid
-Invalid transactions should be skipped
+Concepts Used:
+- if–else ladder
+- Arithmetic calculations
 
+==============================================================
+3. TRANSACTION ENTRY SYSTEM
+==============================================================
+Method:
+- TransactionRules()
 
+Rules:
+- User can enter 5 transactions
+- Negative balance is not allowed
+- Invalid withdrawals are skipped
 
-==============================
-Program Flow
-Program starts
-Menu is displayed
-User selects an option
-Selected operation executes
-Menu repeats until the user exits
+Logic:
+- Initial balance taken from user
+- Loop runs exactly 5 times
+- Prevents overdraft
+- Shows updated balance after each transaction
+
+Concepts Used:
+- for loop
+- Conditional validation
+- Running balance logic
+
+==============================================================
+4. MENU SYSTEM AND PROGRAM FLOW
+==============================================================
+Methods:
+- startMenu()
+- runProgram()
+
+Flow:
+- Menu displayed using switch-case
+- User selects option (1–4)
+- Corresponding operation executes
+- Loop repeats until Exit option is chosen
+
+Concepts Used:
+- do-while loop
+- switch-case
+- Modular programming
+
+==============================================================
+KEY CONCEPTS DEMONSTRATED
+==============================================================
+- Classes and methods
+- Menu-driven program design
+- Loops (for, do-while)
+- Conditional logic
+- User input and validation
+- Real-world financial rules
+
+==============================================================
+KEY LEARNING
+==============================================================
+This project combines multiple core C# concepts into a
+single structured application, making it ideal for
+understanding control flow, logic building, and
+menu-based program design.
 */
+
 
 
 using System.Collections;

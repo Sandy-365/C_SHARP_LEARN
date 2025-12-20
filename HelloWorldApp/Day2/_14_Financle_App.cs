@@ -1,192 +1,149 @@
 /*
-Mini Project: Finance Management System (C#)
+NOTE:
 
-⸻
+This is a **Mini Project: Finance Management System** implemented in C#.
+The program is fully menu-driven and demonstrates practical usage of
+core programming concepts.
 
-1. Problem Statement (Verified)
+==============================================================
+PROJECT OBJECTIVE
+==============================================================
+To design a finance system that handles:
+- Money outflow (Debit)
+- Money inflow (Credit)
 
-The aim of this project is to develop a menu-driven finance management system using C#,
-demonstrating the use of classes, functions, loops, conditional statements, and switch-case.
-The project is divided into Debit and Credit operations, each handling distinct financial activities related to money outflow and inflow.
+The program runs continuously until the user chooses Exit.
 
-⸻
+==============================================================
+PROJECT STRUCTURE
+==============================================================
+Classes Used:
+1. FinanceApp   → Main controller and menu handler
+2. Debit        → Handles money outflow operations
+3. Credit       → Handles money inflow operations
 
-2. Project Rules (Validated)
-	1.	Two classes are used:
-	•	Debit
-	•	Credit
-	2.	Each class contains exactly four different functions.
-	3.	Menu navigation is implemented using switch-case.
-	4.	Decision making is implemented using if–else and logical operators.
-	5.	Loops are used for repetitive calculations.
-	6.	Program executes until the user selects Exit.
+Each Debit and Credit class contains **exactly four functions**,
+as per project rules.
 
-⸻
+==============================================================
+MAIN CLASS: FinanceApp
+==============================================================
+Responsibilities:
+- Displays the main menu
+- Controls program flow
+- Redirects user to Debit or Credit operations
 
-3. Class: Debit (Money Outflow Operations)
+Menu Options:
+1. Debit Operations
+2. Credit Operations
+3. Exit
 
-The Debit class handles financial activities where money is spent, deducted, or restricted.
+Concepts Used:
+- do-while loop
+- switch-case
+- Object creation
+- Modular design
 
-⸻
+==============================================================
+CLASS: Debit (Money Outflow)
+==============================================================
+Handles expenses, withdrawals, and balance checks.
 
-Function 1: ATM Withdrawal Limit Validation
-
-Purpose:
-To verify whether the withdrawal amount is within the daily ATM limit.
-
-Rules / Logic:
-	•	User enters withdrawal amount.
-	•	Daily withdrawal limit is fixed (₹40,000).
-	•	If withdrawal amount ≤ limit → allowed.
-	•	If withdrawal amount > limit → rejected.
-
-Expected Output:
-	•	“Withdrawal permitted within daily limit.”
-	•	OR
-	•	“Daily ATM withdrawal limit exceeded.”
-
-⸻
-
-Function 2: EMI Burden Evaluation
-
-Purpose:
-To determine whether a customer can manage a loan EMI.
-
-Rules / Logic:
-	•	User enters monthly income.
-	•	User enters EMI amount.
-	•	EMI must not exceed 40% of monthly income.
-	•	EMI ≤ 40% → manageable.
-	•	EMI > 40% → financial burden.
+--------------------------------------------------------------
+1. ATM Withdrawal Limit Validation
+--------------------------------------------------------------
+Rule:
+- Daily limit = ₹40,000
 
 Expected Output:
-	•	“EMI is financially manageable.”
-	•	OR
-	•	“EMI exceeds safe income limit.”
+- "Withdrawal permitted within daily limit."
+- "Daily ATM withdrawal limit exceeded."
 
-⸻
-
-Function 3: Transaction-Based Daily Spending Calculator
-
-Purpose:
-To calculate total spending from multiple debit transactions.
-
-Rules / Logic:
-	•	User enters number of transactions.
-	•	Loop runs for each transaction.
-	•	Transaction amounts are summed.
-
-Loop Used:
-	•	for or while loop
+--------------------------------------------------------------
+2. EMI Burden Evaluation
+--------------------------------------------------------------
+Rule:
+- EMI must not exceed 40% of monthly income
 
 Expected Output:
-	•	“Total debit amount for the day: ₹XXXX”
+- "EMI is financially manageable."
+- "EMI exceeds safe income limit."
 
-⸻
+--------------------------------------------------------------
+3. Transaction-Based Daily Spending Calculator
+--------------------------------------------------------------
+Expected Output:
+- "Total debit amount for the day: ₹XXXX"
 
-Function 4: Minimum Balance Compliance Check
-
-Purpose:
-To check whether the account maintains the required minimum balance.
-
-Rules // Logic:
-	•	Minimum balance required: ₹2,000.
-	•	User enters current balance.
-	•	Balance < ₹2,000 → penalty applicable.
-	•	Balance ≥ ₹2,000 → compliant.
+--------------------------------------------------------------
+4. Minimum Balance Compliance Check
+--------------------------------------------------------------
+Rule:
+- Minimum balance = ₹2,000
 
 Expected Output:
-	•	“Minimum balance not maintained. Penalty applicable.”
-	•	OR
-	•	“Minimum balance requirement satisfied.”
+- "Minimum balance not maintained. Penalty applicable."
+- "Minimum balance requirement satisfied."
 
-⸻
+==============================================================
+CLASS: Credit (Money Inflow)
+==============================================================
+Handles income, deposits, and rewards.
 
-4. Class: Credit (Money Inflow Operations)
-
-The Credit class manages financial activities where money is earned, credited, or accumulated.
-
-⸻
-
-Function 1: Net Salary Credit Calculation
-
-Purpose:
-To calculate the net salary credited after deductions.
-
-Rules / Logic:
-	•	User enters gross salary.
-	•	Fixed deduction of 10% is applied.
-	•	Net salary is calculated.
-
+--------------------------------------------------------------
+1. Net Salary Credit Calculation
+--------------------------------------------------------------
 Expected Output:
-	•	“Net salary credited: ₹XXXX”
+- "Net salary credited: ₹XXXX"
 
-⸻
-
-Function 2: Fixed Deposit Maturity Calculation
-
-Purpose:
-To calculate the maturity amount of a fixed deposit.
-
-Rules / Logic:
-	•	User enters principal, rate of interest, and time period.
-	•	Simple interest is calculated.
-	•	Maturity amount = Principal + Interest.
-
+--------------------------------------------------------------
+2. Fixed Deposit Maturity Calculation
+--------------------------------------------------------------
 Expected Output:
-	•	“Fixed Deposit maturity amount: ₹XXXX”
+- "Fixed Deposit maturity amount: ₹XXXX"
 
-⸻
-
-Function 3: Credit Card Reward Points Evaluation
-
-Purpose:
-To calculate reward points based on spending.
-
-Rules / Logic:
-	•	User enters total credit card spending.
-	•	1 reward point is earned for every ₹100 spent.
-	•	Reward points are calculated using division.
-
+--------------------------------------------------------------
+3. Credit Card Reward Points Evaluation
+--------------------------------------------------------------
 Expected Output:
-	•	“Reward points earned: XXXX”
+- "Reward points earned: XXXX"
 
-⸻
-
-Function 4: Employee Bonus Eligibility Check
-
-Purpose:
-To determine bonus eligibility based on salary and experience.
-
-Rules / Logic:
-	•	Annual salary ≥ ₹5,00,000
-	•	Years of service ≥ 3
-	•	Both conditions must be satisfied.
-
-Conditions Used:
-	•	Logical AND (&&)
-
+--------------------------------------------------------------
+4. Employee Bonus Eligibility Check
+--------------------------------------------------------------
 Expected Output:
-	•	“Employee is eligible for bonus.”
-	•	OR
-	•	“Employee is not eligible for bonus.”
+- "Employee is eligible for bonus."
+- "Employee is not eligible for bonus."
 
-⸻
+==============================================================
+PROGRAM FLOW
+==============================================================
+1. Program starts
+2. Main menu displayed
+3. User selects option
+4. Selected module executes
+5. Menu repeats
+6. Program exits only when Exit is selected
 
-5. Menu System (Confirmed Correct)
+==============================================================
+KEY CONCEPTS DEMONSTRATED
+==============================================================
+- Classes and objects
+- Menu-driven programs
+- switch-case
+- if–else and logical operators
+- for and do-while loops
+- User input handling
+- Real-world finance logic
 
-Main Menu Options:
-	1.	Debit Operations
-	2.	Credit Operations
-	3.	Exit
-
-Rules:
-	•	Menu displayed repeatedly using a loop.
-	•	Selection handled using switch-case.
-	•	Exit terminates the program.
-
-⸻
+==============================================================
+KEY LEARNING
+==============================================================
+This project is a complete example of combining
+decision making, loops, and modular programming
+to build a real-world console-based application.
 */
+
 
 class FinanceApp
 {
