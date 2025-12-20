@@ -1,3 +1,89 @@
+/*
+NOTE:
+
+This class demonstrates the concept of **Employee data handling**
+using Object-Oriented Programming (OOP) in C#.
+
+==============================================================
+CLASS: Employee
+==============================================================
+Purpose:
+Represents an employee entity with basic details such as
+ID, Name, Department, Salary, and Gender.
+
+==============================================================
+DATA MEMBERS
+==============================================================
+Id          → Stores employee ID  
+Name        → Stores employee name  
+Department  → Stores employee department  
+Salary      → Stores employee salary  
+Gender      → Stores employee gender  
+
+All data members are instance variables, meaning
+each object has its own copy.
+
+==============================================================
+CONSTRUCTOR: Employee(...)
+==============================================================
+Purpose:
+- Initializes employee object at the time of creation.
+- Uses `this` keyword to differentiate instance variables
+  from constructor parameters.
+
+Concepts Used:
+- Parameterized constructor
+- this keyword
+- Object initialization
+
+==============================================================
+METHOD: AcceptDetails()
+==============================================================
+Purpose:
+- Takes employee details from the user at runtime.
+- Updates existing object values.
+
+Input Handling:
+- int      → Convert.ToInt32
+- float    → Convert.ToSingle
+- char     → Convert.ToChar
+- string   → Console.ReadLine()
+
+Concepts Used:
+- Console input
+- Type conversion
+- Runtime data assignment
+
+==============================================================
+METHOD: DisplayDetails()
+==============================================================
+Purpose:
+- Displays all employee details in a readable format.
+- Uses string interpolation for clean output.
+
+Concepts Used:
+- Console output
+- String interpolation ($"")
+
+==============================================================
+CONCEPTS DEMONSTRATED
+==============================================================
+- Class and object
+- Instance variables
+- Constructor usage
+- this keyword
+- User input handling
+- Encapsulation of data and behavior
+
+==============================================================
+KEY LEARNING
+==============================================================
+This class shows how real-world entities like employees
+can be modeled in C# using classes, constructors, and methods
+to store and display structured data.
+*/
+
+
 using System;
 
 class Employee

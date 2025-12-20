@@ -1,39 +1,71 @@
 /*
-Extracted Text from Image
-Question No: 1 / 1
-Task
+NOTE:
 
-Write a C# program that reads two integer values from the user, swaps their values without using a temporary variable, and then prints the swapped values.
+This program demonstrates how to **swap two integer values**
+without using a temporary variable in C#.
 
-Requirements
+==============================================================
+CLASS: SwapTwoNumber
+==============================================================
+Purpose:
+To read two integers from the user, display their values
+before swapping, swap them using arithmetic operations,
+and then display the swapped values.
 
-The program should read two integers from the user.
-The program should then swap the values of these integers using arithmetic operations (without the help of any additional variables).
-Finally, the program should print the values of the integers before and after the swap.
-Write the solution within the Main function in the Program.cs file.
+==============================================================
+INPUT DETAILS
+==============================================================
+- User enters two integer values.
+- First value is stored in num1.
+- Second value is stored in num2.
 
-Input Format
-The first line of input is the integer
-The second line of input is the integer
+==============================================================
+METHOD: swap()
+==============================================================
+Purpose:
+- Takes two integers as input.
+- Prints values before swapping.
+- Swaps values without using any extra variable.
+- Prints values after swapping.
 
-Output Format
-First line of output contains before swapping the integers.
-Second line of output contains after swapping the integers.
+==============================================================
+LOGIC USED (WITHOUT TEMP VARIABLE)
+==============================================================
+Step 1:
+num1 = num1 + num2
 
-Sample Input 1
-1
-2
-Sample Output 1
+Step 2:
+num2 = num1 - num2
+
+Step 3:
+num1 = num1 - num2
+
+After these operations:
+- num1 contains original value of num2
+- num2 contains original value of num1
+
+==============================================================
+EXPECTED OUTPUT FORMAT
+==============================================================
 Before swap: a = 1, b = 2
-After swap: a = 2, b = 1
+After swap:  a = 2, b = 1
 
-Sample Input 2
-56
-65
-Sample Output 2
-Before swap: a = 56, b = 65
-After swap: a = 65, b = 56
+==============================================================
+CONCEPTS DEMONSTRATED
+==============================================================
+- Arithmetic operations
+- Variable manipulation
+- Console input and output
+- Swapping logic without temporary variable
+
+==============================================================
+KEY LEARNING
+==============================================================
+Swapping values without a temporary variable can be
+achieved using arithmetic operations, improving
+understanding of variable manipulation.
 */
+
 
 class SwapTwoNumber
 {

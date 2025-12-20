@@ -1,15 +1,142 @@
 /*
-1)Sample C# program to print a welcome message
-2)Write C# program to read a number user and display it
-3)Write C# program to read a floating point number from user 
-4)Write C# program to read a string from user and display it on the screen 
-5)Write C# program to perform all arithmetic operations
-6)Write C# program to find the area of circle 
-7) program to find whether the given number is Even or Odd 
-8)program to find the greatest of 2 numbers 
-9) program to find whether a given number is positive ,negative or zero
-10 program to find the greatest of three numbers using nested if
+NOTE:
+
+This class contains **basic C# practice programs** that help understand
+fundamental programming concepts such as input/output, arithmetic,
+and decision-making.
+
+==============================================================
+CLASS: Questions
+==============================================================
+Purpose:
+To implement multiple beginner-level C# programs inside
+a single method for learning and practice.
+
+==============================================================
+PROGRAM LIST AND EXPLANATION
+==============================================================
+
+1. Welcome Message Program
+--------------------------------------------------------------
+- Prints a simple welcome message on the screen.
+Concept Used:
+- Console.WriteLine()
+
+--------------------------------------------------------------
+
+2. Read and Display an Integer
+--------------------------------------------------------------
+- Takes an integer input from the user.
+- Displays the entered value.
+Concepts Used:
+- Console.ReadLine()
+- Convert.ToInt32()
+
+--------------------------------------------------------------
+
+3. Read a Floating Point Number
+--------------------------------------------------------------
+- Takes a float value as input.
+- Displays the value.
+Concepts Used:
+- float data type
+- Convert.ToSingle()
+
+--------------------------------------------------------------
+
+4. Read and Display a String
+--------------------------------------------------------------
+- Takes a string (name) from user.
+- Displays it on the screen.
+Concepts Used:
+- string data type
+- Console input/output
+
+--------------------------------------------------------------
+
+5. Arithmetic Operations (Addition)
+--------------------------------------------------------------
+- Reads two integers.
+- Performs addition.
+Concepts Used:
+- Arithmetic operator (+)
+- Variable handling
+
+--------------------------------------------------------------
+
+6. Area of a Circle
+--------------------------------------------------------------
+- Takes radius as input.
+- Calculates area using formula:
+  Area = π × r × r
+Concepts Used:
+- Mathematical formula
+- float calculation
+
+--------------------------------------------------------------
+
+7. Even or Odd Check
+--------------------------------------------------------------
+- Checks whether a number is even or odd.
+Logic:
+- Number % 2 == 0 → Even
+Concepts Used:
+- Modulus operator (%)
+- if–else
+
+--------------------------------------------------------------
+
+8. Greatest of Two Numbers
+--------------------------------------------------------------
+- Compares two numbers.
+- Prints the greater one.
+Concepts Used:
+- Relational operators
+- if–else
+
+--------------------------------------------------------------
+
+9. Positive, Negative, or Zero
+--------------------------------------------------------------
+- Checks sign of a number.
+Concepts Used:
+- if–else-if ladder
+
+--------------------------------------------------------------
+
+10. Greatest of Three Numbers (Nested if)
+--------------------------------------------------------------
+- Compares three numbers using nested if statements.
+Concepts Used:
+- Nested decision making
+
+--------------------------------------------------------------
+
+11. Greatest of Three Numbers (Logical AND)
+--------------------------------------------------------------
+- Uses logical AND (&&) to find the greatest number.
+Concepts Used:
+- Logical operators
+- if–else-if structure
+
+==============================================================
+CONCEPTS DEMONSTRATED
+==============================================================
+- Console input and output
+- Data types (int, float, string)
+- Arithmetic operations
+- Conditional statements
+- Nested if
+- Logical operators
+
+==============================================================
+KEY LEARNING
+==============================================================
+This class provides hands-on practice for basic C# syntax
+and logic building, which forms the foundation for
+advanced programming concepts.
 */
+
 
 class Questions
 {

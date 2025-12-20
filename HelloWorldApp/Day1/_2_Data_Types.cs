@@ -1,3 +1,87 @@
+/*
+NOTE:
+
+This class demonstrates the use of **basic data types** in C#
+along with **input handling** and **type conversion**.
+
+==============================================================
+CLASS: Data_Types
+==============================================================
+Purpose:
+To show how different built-in data types are declared,
+initialized, assigned through user input, and displayed.
+
+==============================================================
+DATA MEMBERS USED
+==============================================================
+int     NumInt     → Stores integer values  
+long    NumLong    → Stores large integer values  
+float   NumFloat   → Stores decimal values (single precision)  
+double  NumDouble  → Stores decimal values (double precision)  
+bool    BoolInp    → Stores true or false  
+char    CharInp    → Stores a single character  
+string  StringInp  → Stores text data  
+
+==============================================================
+CONSTRUCTOR: Data_Types()
+==============================================================
+Purpose:
+- Initializes all data members with default values.
+- Executes automatically when object is created.
+
+Example Initial Values:
+- int     → 1000
+- long    → 1001
+- float   → 1002
+- double  → 1003.05
+- bool    → false
+- char    → 'S'
+- string  → "Sandeep"
+
+==============================================================
+METHOD: Take_Input()
+==============================================================
+Purpose:
+- Takes user input for all data types.
+- Converts input from string to required data type.
+
+Conversion Method Used:
+- Convert.ToInt32
+- Convert.ToInt64
+- Convert.ToSingle
+- Convert.ToDouble
+- Convert.ToBoolean
+- Convert.ToChar
+- Convert.ToString
+
+Note:
+- Convert class is safer than Parse because it handles null values better.
+
+==============================================================
+METHOD: PrintAll()
+==============================================================
+Purpose:
+- Displays all stored values on the console.
+- Confirms correct input and data storage.
+
+==============================================================
+CONCEPTS DEMONSTRATED
+==============================================================
+- Primitive data types
+- Constructor usage
+- User input handling
+- Type conversion
+- Console output
+
+==============================================================
+KEY LEARNING
+==============================================================
+This class helps understand how different data types
+work in C# and how user input is converted and stored
+properly in variables.
+*/
+
+
 class Data_Types
 {
     int NumInt;
