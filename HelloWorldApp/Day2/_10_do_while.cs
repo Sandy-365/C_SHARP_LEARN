@@ -8,5 +8,6 @@ class DoWhileExample
             Console.WriteLine("Count is "+count);
             count++;
         }while(count <= 5);
+        Console.WriteLine("Done");
     }
 }

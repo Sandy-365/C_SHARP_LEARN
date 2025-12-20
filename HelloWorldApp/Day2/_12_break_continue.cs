@@ -21,8 +21,8 @@ class BreakContinueExample
             {
                 Console.WriteLine($"E{i} is invinsible skipping e{4}");
                 continue;
-                // Console.WriteLine("now this will not run");
-                // Console.WriteLine("Hello i am below E4");
+                Console.WriteLine("now this will not run");
+                Console.WriteLine("Hello i am below E4");
             }
 
             Console.WriteLine($"Player killed e{i}");

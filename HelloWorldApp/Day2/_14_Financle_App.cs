@@ -89,7 +89,7 @@ Function 4: Minimum Balance Compliance Check
 Purpose:
 To check whether the account maintains the required minimum balance.
 
-Rules / Logic:
+Rules // Logic:
 	•	Minimum balance required: ₹2,000.
 	•	User enters current balance.
 	•	Balance < ₹2,000 → penalty applicable.

@@ -9,7 +9,7 @@ class SumOfNumberWhile
             sum += count;
             count++;
         }
-        Console.WriteLine("Sum of 0-5 is "+sum);
+        Console.WriteLine("Sum of numb 0 to num 5 is "+sum);
 
     }
 }

@@ -101,7 +101,7 @@ class HelloWorld
         //                                               #####                                                          //
         //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-        // // --------------DAY2----9-Sum-of-5-number-------------------
+        // //---------------DAY2----9-Sum-of-5-number-------------------
         // Console.WriteLine("\n");
 
         // SumOfNumberWhile sumWhileObj = new SumOfNumberWhile();
@@ -109,7 +109,7 @@ class HelloWorld
 
 
 
-        // // --------------DAY2---10-Do-while-Example------------------
+        // //---------------DAY2---10-Do-while-Example------------------
         // Console.WriteLine("\n");
 
         // DoWhileExample doWhileObj = new DoWhileExample();
@@ -134,7 +134,7 @@ class HelloWorld
 
 
 
-        // //--------------DAY2---13-BANK-Question---------------------------
+        // //---------------DAY2---13-BANK-Question---------------------------
         // Console.WriteLine("\n");
 
         // BankApp bankObj = new BankApp();
@@ -142,7 +142,7 @@ class HelloWorld
 
 
 
-        // //--------------DAY2---14-FINANCE-APP-----------------------------
+        // //---------------DAY2---14-FINANCE-APP-----------------------------
         // Console.WriteLine("\n");
 
 
@@ -160,7 +160,7 @@ class HelloWorld
         //                                               #####                                                          //
         //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-        // //--------------DAY3---15-CLASS-and-OBJECT-------------------------
+        // //---------------DAY3---15-CLASS-and-OBJECT-------------------------
         // Console.WriteLine("\n");
 
         // _15_BankAccount bankAccObj = new _15_BankAccount();
@@ -193,13 +193,13 @@ class HelloWorld
 
 
 
-        // //--------------DAY3---17-FUNCTION-OVERLOADING------------------------
+        // //---------------DAY3---17-FUNCTION-OVERLOADING------------------------
         // Console.WriteLine("\n");
 
         // Console.WriteLine("Sum is "+_17_FunctionOverloading.Add(1,2));
 
         // _17_FunctionOverloading funcOverObj = new _17_FunctionOverloading();
-        
+
         // int intAns = funcOverObj.Add(1, 3);
         // Console.WriteLine("Sum is " + intAns);
 
@@ -218,7 +218,7 @@ class HelloWorld
 
 
 
-        // //--------------DAY3---18-PARAMETERS-and-ITs-TYPES--------------------
+        // //---------------DAY3---18-PARAMETERS-and-ITs-TYPES--------------------
         // Console.WriteLine("\n");
 
         // _18_Parameters paraObj = new _18_Parameters();
@@ -249,7 +249,7 @@ class HelloWorld
 
 
 
-        // //--------------DAY3---19-REF-OUT-EXAMPLE------------------------------
+        // //---------------DAY3---19-REF-OUT-EXAMPLE------------------------------
         // Console.WriteLine("");
 
         // _19_Refrencse refObj = new _19_Refrencse();
@@ -258,8 +258,26 @@ class HelloWorld
 
 
 
-        // //-------------DAY3---20-CALCULATOR------------------------------------
-        
+        // //---------------DAY3---20-CALCULATOR--FUNCTION-INSIDE-FUNCTION--------------------------------
+        // Console.WriteLine("");
+
+        // _20_Calculator calObj = new _20_Calculator();
+        // calObj.calculate(10,23);
+
+
+
+
+        // //---------------DAY4---21-LAMDA-FUNCTION-EXAMPLE------------------------------------------------
+        Console.WriteLine("");
+
+        _21_Lamda_Static lamdaStaticObj = new _21_Lamda_Static();
+
+        Console.WriteLine("---------------Lamda Example------------------");
+        lamdaStaticObj.ExampleLamda();
+
+        Console.WriteLine("\n---------------Static Example-----------------");
+        lamdaStaticObj.ExampleStatic(); // non static function can use static variables
+        _21_Lamda_Static.ExampleStatic2();  // static function can not use non static variables
 
     }
 }

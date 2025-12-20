@@ -196,7 +196,7 @@ class BankApp
                     break;
                 default:
                     Console.WriteLine("\n");
-                    Console.WriteLine("\t\t\tPlease Enter your input between 1 to 4 only");
+                    Console.WriteLine("\t\t\tPlease Enter your input between 1 to 4 only.");
                     break;
             }
         } while (ch != 4);

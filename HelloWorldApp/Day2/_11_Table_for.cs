@@ -11,7 +11,7 @@ class TableUsingForLoop
             {
                 Console.WriteLine($"{i} X {j} = {i*j}");
             }
-            Console.WriteLine("\n\n");
+            Console.WriteLine("\n\n\n");
         }
     }
 }
