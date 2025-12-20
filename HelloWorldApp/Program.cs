@@ -60,6 +60,9 @@ class HelloWorld
         // SwapTwoNumber swapObj = new SwapTwoNumber();
         // swapObj.swap();
 
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 
 
         // // --------------DAY2----9-Sum-of-5-number-------------------
@@ -86,9 +89,37 @@ class HelloWorld
         // breakContObj.ContinueExample();
 
 
+
         // //--------------DAY2---13-BANK-Question---------------------------
-        BankApp bankObj = new BankApp();
-        bankObj.runProgram();
+        // BankApp bankObj = new BankApp();
+        // bankObj.runProgram();
+
+
+
+        // //--------------DAY2---14-FINANCE-APP-----------------------------
+        // FinanceApp financeAppObj = new FinanceApp();
+        // financeAppObj.runProgram();
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+        // //--------------DAY3---15-CLASS-and-OBJECT-------------------------
+        Console.WriteLine("\n\n");
+
+        _15_BankAccount bankAccObj = new _15_BankAccount();
+        bankAccObj.AccNum = 101;
+        bankAccObj.Balance = 10000;
+        Console.WriteLine($"Account number is {bankAccObj.AccNum} and salary present is {bankAccObj.Balance}");
+
+
+        _15_Employee empObj = new _15_Employee();
+        empObj.Name = "Sandeep";
+        empObj.Salary = 100000;
+        empObj.DisplayDetails();
+
+        
 
     }
 }
