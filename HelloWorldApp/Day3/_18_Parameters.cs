@@ -1,3 +1,82 @@
+/*
+NOTE:
+
+This class explains different types of **method parameters** in C#,
+including default parameters, params keyword, and parameter rules.
+
+---------------------------------------------------------
+CLASS: _18_Parameters
+---------------------------------------------------------
+Purpose:
+Demonstrates how methods accept values in different ways
+and how C# handles flexible parameter passing.
+
+---------------------------------------------------------
+1. DEFAULT (OPTIONAL) PARAMETERS
+---------------------------------------------------------
+Method:
+- person(string name, string city, int age, int rollNo,
+         string college = "LPU", string ram = "Sandeep")
+
+Explanation:
+- Parameters with default values are optional.
+- If caller does not pass them, default values are used.
+- Optional parameters must appear after required parameters.
+
+---------------------------------------------------------
+2. params KEYWORD (VARIABLE ARGUMENTS)
+---------------------------------------------------------
+Method:
+- Params(params int[] arr)
+
+Explanation:
+- Allows passing a variable number of integer arguments.
+- All values are treated as an array inside the method.
+- Commonly used when number of inputs is unknown.
+
+Important Note:
+- The variable 'sum' is an instance variable.
+- Its value persists across multiple method calls.
+
+---------------------------------------------------------
+3. RULE OF params PARAMETER
+---------------------------------------------------------
+- Only ONE params parameter is allowed in a method.
+- params parameter MUST be the LAST parameter.
+- Violating this rule causes a compile-time error.
+
+(Shown in commented invalid methods)
+
+---------------------------------------------------------
+4. COMBINATION OF NORMAL + OPTIONAL + params
+---------------------------------------------------------
+Method:
+- Params3(int num, string name = "Sandeep", params string[] str)
+
+Explanation:
+- num is mandatory
+- name is optional
+- str accepts multiple string values
+
+---------------------------------------------------------
+Method:
+- Params4(int num, string name = "Sandeep", params int[] arr)
+
+Explanation:
+- Demonstrates params with integer values
+- Shows correct order of parameters:
+  normal → optional → params
+
+---------------------------------------------------------
+KEY LEARNING
+---------------------------------------------------------
+1. Optional parameters simplify method calls.
+2. params keyword provides flexibility.
+3. params must always be last.
+4. Parameter order rules are strictly enforced by C#.
+*/
+
+
 class _18_Parameters
 {
     // static int sum;

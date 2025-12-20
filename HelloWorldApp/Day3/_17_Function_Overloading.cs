@@ -1,3 +1,72 @@
+/*
+NOTE:
+
+This program demonstrates the concept of **Function (Method) Overloading**
+in C# with multiple valid scenarios.
+
+---------------------------------------------------------
+CLASS: _17_FunctionOverloading
+---------------------------------------------------------
+Purpose:
+Shows how multiple methods with the same name can exist
+in a class as long as their **parameter lists are different**.
+
+---------------------------------------------------------
+IMPORTANT RULES OF METHOD OVERLOADING
+---------------------------------------------------------
+1. Method name must be the same.
+2. Parameter list must be different in at least one way:
+   - Data type
+   - Number of parameters
+   - Order of parameters
+3. Return type alone CANNOT differentiate methods.
+4. Method signature = Method Name + Parameter List.
+
+---------------------------------------------------------
+VALID OVERLOADING TYPES USED
+---------------------------------------------------------
+
+1. Overloading by Data Type
+   - Add(int, int)
+   - Add(double, int)
+   - Add(int, double)
+
+2. Overloading by Number of Parameters
+   - Add(int, int, int)
+
+3. Overloading by Order of Parameters
+   - Add(int, double)
+   - Add(double, int)
+
+4. Overloading with Mixed Data Types
+   - Add(double, int, double)
+
+5. Overloading with String
+   - Add(string, string)
+   Used for string concatenation.
+
+6. Overloading using params Keyword
+   - Add(params int[])
+   Accepts variable number of integer arguments.
+
+7. Overloading with Optional Parameter
+   - Add(int, int, int, int = 0)
+   Allows calling method with 3 or 4 arguments.
+
+---------------------------------------------------------
+INVALID OVERLOADING (COMMENTED)
+---------------------------------------------------------
+- Same parameter list with different return type is NOT allowed.
+- Causes compile-time error CS0111.
+
+---------------------------------------------------------
+KEY LEARNING
+---------------------------------------------------------
+Function overloading improves code readability and flexibility
+by allowing the same method name to handle different inputs.
+*/
+
+
 using System;
 
 class _17_FunctionOverloading
