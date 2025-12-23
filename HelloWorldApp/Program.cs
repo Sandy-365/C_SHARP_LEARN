@@ -1,4 +1,6 @@
 ﻿using System;
+using HelloWorldApp.Day3;
+using static System.Math;
 
 class HelloWorld
 {
@@ -143,11 +145,8 @@ class HelloWorld
 
 
         // //---------------DAY2---14-FINANCE-APP-----------------------------
-        // Console.WriteLine("\n");
-
-
-        // FinanceApp financeAppObj = new FinanceApp();
-        // financeAppObj.runProgram();
+        // ---------Project Finance APP--------------
+        // Located in PROJECT folder
 
 
 
@@ -268,16 +267,190 @@ class HelloWorld
 
 
         // //---------------DAY4---21-LAMDA-FUNCTION-EXAMPLE------------------------------------------------
-        Console.WriteLine("");
+        // Console.WriteLine("");
 
-        _21_Lamda_Static lamdaStaticObj = new _21_Lamda_Static();
+        // _21_Lamda_Static lamdaStaticObj = new _21_Lamda_Static();
 
-        Console.WriteLine("---------------Lamda Example------------------");
-        lamdaStaticObj.ExampleLamda();
+        // Console.WriteLine("---------------Lamda Example------------------");
+        // lamdaStaticObj.ExampleLamda();
 
-        Console.WriteLine("\n---------------Static Example-----------------");
-        lamdaStaticObj.ExampleStatic(); // non static function can use static variables
-        _21_Lamda_Static.ExampleStatic2();  // static function can not use non static variables
+        // Console.WriteLine("\n---------------Static Example-----------------");
+        // lamdaStaticObj.ExampleStatic(); // non static function can use static variables
+        // _21_Lamda_Static.ExampleStatic2();  // static function can not use non static variables
 
+
+
+
+        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //                                                #                                                             //
+        //                                              # #                                                             //
+        //                                             #  #                                                             //
+        //                                            # ###                                                             //
+        //                                                #                                                             //
+        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+        // //---------------DAY4---22---CONSTRUCTER---------------------------------------
+        // Console.WriteLine("");
+
+        // _22_Constructor obj1 = new _22_Constructor();
+        // obj1.DisplayDetails();
+
+        // _22_Constructor obj2 = new _22_Constructor("Rahul", 12);
+        // obj2.DisplayDetails();
+
+        // obj1.Constructor();
+        // obj1.DisplayDetails();
+
+
+
+        // //-----------------DAY4---23--INHERITANCE--------------------------------------
+        // Console.WriteLine("");
+
+        // Console.WriteLine("----- ACCESS MODIFIER + CONSTRUCTOR CHAINING -----");
+        // _23_FixedDeposit fd = new _23_FixedDeposit("Sandeep");
+        // fd.DisplayDetails();
+
+        // Console.WriteLine("\n----- SINGLE INHERITANCE -----");
+        // _23_Car car = new _23_Car();
+        // car.Start();
+        // car.Drive();
+
+        // Console.WriteLine("\n----- CONSTRUCTOR CHAINING (base) -----");
+        // _23_Student student = new _23_Student("Amit", 101);
+        // Console.WriteLine(student.Name);
+        // Console.WriteLine(student.RollNo);
+
+        // Console.WriteLine("\n----- MULTILEVEL INHERITANCE -----");
+        // _23_Employee emp = new _23_Employee();
+        // emp.Breathe();
+        // emp.Think();
+        // emp.Work();
+
+        // Console.WriteLine("\n----- HIERARCHICAL INHERITANCE -----");
+        // _23_Circle circle = new _23_Circle();
+        // _23_Rectangle rectangle = new _23_Rectangle();
+        // circle.Draw();
+        // rectangle.Draw();
+
+        // Console.WriteLine("\n----- MULTIPLE INHERITANCE USING INTERFACES -----");
+        // _23_Machine machine = new _23_Machine();
+        // machine.Print();
+        // machine.Scan();
+
+        // Console.WriteLine("\n----- METHOD OVERRIDING (RUNTIME POLYMORPHISM) -----");
+        // _23_Animal animal = new _23_Dog();
+        // animal.Sound();
+
+        // Console.WriteLine("\n----- base KEYWORD WITH OVERRIDING -----");
+        // _23_AnimalBase dogBase = new _23_DogDerived();
+        // dogBase.Speak();
+
+        // Console.WriteLine("\n----- METHOD HIDING -----");
+        // _23_ParentHide p = new _23_ChildHide();
+        // p.Show();
+        // _23_ChildHide c = new _23_ChildHide();
+        // c.Show();
+
+        // Console.WriteLine("\n----- STATIC METHOD HIDING -----");
+        // _23_StaticA.Display();
+        // _23_StaticB.Display();
+
+        // Console.WriteLine("\n----- SEALED CLASS -----");
+        // _23_Security security = new _23_Security();
+        // security.Access();
+
+        // Console.WriteLine("\n----- SEALED METHOD -----");
+        // _23_Parent parent = new _23_Child();
+        // parent.Show();
+
+        // Console.WriteLine("\n----- COMPOSITION (HAS-A) -----");
+        // _23_CarComposition carComp = new _23_CarComposition();
+        // carComp.Drive();
+
+
+
+
+
+        // //---------------DAY4---24---Getter-Setters----------------------------
+        // Console.WriteLine("");
+
+        // // ---------------- EMPLOYEE ----------------
+        // _24_Employee e = new _24_Employee();   // object creation
+        // e.Salary = 40000;                      // setter called
+
+        // Console.WriteLine("Employee Salary");
+        // Console.WriteLine(e.Salary);            // getter called
+        // Console.WriteLine("--------------------------------");
+
+
+        // // ---------------- PRODUCT ----------------
+        // _24_Product p = new _24_Product();     // object creation
+        // p.ProductId = 101;                     // set property
+        // p.ProductName = "Laptop";              // set auto property
+        // p.Price = 55000;                       // set auto property
+
+        // Console.WriteLine("Product Details");
+        // Console.WriteLine(p.ProductId);
+        // Console.WriteLine(p.ProductName);
+        // Console.WriteLine(p.Price);
+        // Console.WriteLine("--------------------------------");
+
+
+        // // ---------------- STUDENT ----------------
+        // _24_Student s = new _24_Student();     // object creation
+        // s.RollNo = 1;                          // set auto property
+        // s.Name = "Sandeep";                    // set auto property
+        // s.Course = "CSE";                      // set auto property
+
+        // Console.WriteLine("Student Details");
+        // Console.WriteLine(s.RollNo);
+        // Console.WriteLine(s.Name);
+        // Console.WriteLine(s.Course);
+        // Console.WriteLine("--------------------------------");
+
+
+        // // ---------------- CIRCLE ----------------
+        // _24_Circle c = new _24_Circle(5);      // constructor call
+
+        // Console.WriteLine("Circle Area");
+        // Console.WriteLine(c.Area);              // read-only property
+        // Console.WriteLine("--------------------------------");
+
+
+        // //-----------------EXPRESSION-BODIED-OPERATOR-------------------
+        // _25_Rectangle recObj = new _25_Rectangle();
+        // recObj.Length = 12;
+        // recObj.Width = 12;
+        // Console.WriteLine($"Area of the rectangle is ::>> {recObj.Area}");
+
+
+
+        // //---------DAY4---25--Get--Set---------------------------
+        // Console.WriteLine("");
+        // _25_Student stuObj = new _25_Student();
+        // stuObj.Name = "Sandeep";
+        // stuObj.Age = 23;
+        // stuObj.Marks = 68;
+
+        // stuObj.DisplayDetails();
+
+
+
+        // //----------DAY4---26--Indexer----------------------------
+        // Console.WriteLine("");
+
+        // _26_StudentCollection stuObj = new _26_StudentCollection();
+        // stuObj.SetStudent(0,"Sandeep");
+        // Console.WriteLine($"Getting the Student data 0 ::>> {stuObj.GetStudent(0)}");
+
+
+
+
+        // //----------DAy
+        // FileLogger fl = new FileLogger();
+        // fl.Ilogger.Log(); 
+
+        // Console.WriteLine(Sqrt(25));
+        // Console.WriteLine(Sqrt());
     }
 }

@@ -1,0 +1,4 @@
+interface INotifiable
+{
+    void AcceptMessage();
+}

@@ -1,0 +1,15 @@
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\Project_Finance_App\bin\Debug\net10.0\Project_Finance_App.exe
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\Project_Finance_App\bin\Debug\net10.0\Project_Finance_App.deps.json
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\Project_Finance_App\bin\Debug\net10.0\Project_Finance_App.runtimeconfig.json
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\Project_Finance_App\bin\Debug\net10.0\Project_Finance_App.dll
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\Project_Finance_App\bin\Debug\net10.0\Project_Finance_App.pdb
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\Project_Finance_App\obj\Debug\net10.0\Project_Finance_App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\Project_Finance_App\obj\Debug\net10.0\Project_Finance_App.AssemblyInfoInputs.cache
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\Project_Finance_App\obj\Debug\net10.0\Project_Finance_App.AssemblyInfo.cs
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\Project_Finance_App\obj\Debug\net10.0\Project_Finance_App.csproj.CoreCompileInputs.cache
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\Project_Finance_App\obj\Debug\net10.0\Project_Finance_App.sourcelink.json
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\Project_Finance_App\obj\Debug\net10.0\Project_Finance_App.dll
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\Project_Finance_App\obj\Debug\net10.0\refint\Project_Finance_App.dll
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\Project_Finance_App\obj\Debug\net10.0\Project_Finance_App.pdb
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\Project_Finance_App\obj\Debug\net10.0\Project_Finance_App.genruntimeconfig.cache
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\Project_Finance_App\obj\Debug\net10.0\ref\Project_Finance_App.dll
