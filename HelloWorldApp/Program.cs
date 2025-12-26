@@ -4,453 +4,544 @@ using static System.Math;
 
 class HelloWorld
 {
-    public static void Main(string[] arg)
-    {
+        public static void Main(string[] arg)
+        {
 
-        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        //                                                #                                                             //
-        //                                              # #                                                             //
-        //                                                #                                                             //
-        //                                                #                                                             //
-        //                                              #####                                                           //
-        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                //                                                                                                               //
+                //                                                    #                                                          //
+                //                                                  # #                                                          //
+                //                                                    #                                                          //
+                //                                                    #                                                          //
+                //                                                    #                                                          //
+                //                                                  #####                                                        //
+                //                                                                                                               //
+                ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-        // //---------------DAY1---1-NORMAL-PROGRAM--------------------
-        // Console.WriteLine("\n");
 
-        // Console.WriteLine("Hello World");
-        // String name = Console.ReadLine();
-        // Console.WriteLine(name);
+                // //---------------DAY1---1-NORMAL-PROGRAM--------------------
+                // Console.WriteLine("\n");
 
+                // Console.WriteLine("Hello World");
+                // String name = Console.ReadLine();
+                // Console.WriteLine(name);
 
 
-        // //---------------DAY1----2-DATA-TYPES----------------------
-        // Console.WriteLine("\n");
 
-        // Data_Types dtObj = new Data_Types();
-        // dtObj.PrintAll();
+                // //---------------DAY1----2-DATA-TYPES----------------------
+                // Console.WriteLine("\n");
 
-        // dtObj.Take_Input();
-        // dtObj.PrintAll();
+                // _2_Program _2_dataTypesObj = new _2_Program();
+                // _2_dataTypesObj.Main();
 
 
 
-        // //---------------DAY1----3-QUESTION--------------------------
-        // Console.WriteLine("\n");
+                // //---------------DAY1----3-QUESTION--------------------------
+                // Console.WriteLine("\n");
 
-        // Questions q = new Questions();
-        // q.Ques();
+                // _3_Questions_Program _3_questionsObj = new _3_Questions_Program();
+                // _3_questionsObj.Main();
 
 
 
-        // //---------------DAY1----4-Employee--------------------------
-        // Console.WriteLine("\n");
 
-        // Employee emp1 = new Employee();
-        // // emp1.AcceptDetails(1,"Sandeep","CSE",2000.45f,'M');
-        // Console.WriteLine("\n\n");
-        // emp1.AcceptDetails();
+                // //---------------DAY1----4-Employee--------------------------
+                // Console.WriteLine("\n");
 
-        // Console.WriteLine("\n");
-        // emp1.DisplayDetails();
-        // Console.WriteLine("\n");
+                // _4_Program _4_employeeObj = new _4_Program();
+                // _4_employeeObj.Main();
 
 
 
-        // //---------------DAY1----5-CALCULATOR APP--------------------
-        // Console.WriteLine("\n");
+                // //---------------DAY1----5-CALCULATOR APP--------------------
+                // Console.WriteLine("\n");
 
-        // Calculator cal = new Calculator();
-        // cal.Add();
-        // cal.Subtract();
-        // cal.Multiply();
-        // cal.Divide();
-        // cal.Remainder();
+                // Calculator cal = new Calculator();
+                // cal.Add();
+                // cal.Subtract();
+                // cal.Multiply();
+                // cal.Divide();
+                // cal.Remainder();
 
 
 
-        // //---------------DAY1----6-Check_Vowel-----------------------
-        // Console.WriteLine("\n");
+                // //---------------DAY1----6-Check_Vowel-----------------------
+                // Console.WriteLine("\n");
 
-        // Vowel vowObj = new Vowel();
-        // vowObj.Check();
+                // Vowel vowObj = new Vowel();
+                // vowObj.Check();
 
 
 
-        // //---------------DAY1----7-Convert-to-uppercase-and-find-length-and-print---------------
-        // Console.WriteLine("\n");
+                // //---------------DAY1----7-Convert-to-uppercase-and-find-length-and-print---------------
+                // Console.WriteLine("\n");
 
-        // ConvUpPrint cupObj = new ConvUpPrint();
-        // cupObj.ConvertUpperPrint(); 
+                // ConvUpPrint cupObj = new ConvUpPrint();
+                // cupObj.ConvertUpperPrint(); 
 
 
 
-        // //---------------DAY1----8-Swap-two-number-without-using-third-variable----------------
-        // Console.WriteLine("\n");
+                // //---------------DAY1----8-Swap-two-number-without-using-third-variable----------------
+                // Console.WriteLine("\n");
 
-        // SwapTwoNumber swapObj = new SwapTwoNumber();
-        // swapObj.swap();
+                // SwapTwoNumber swapObj = new SwapTwoNumber();
+                // swapObj.swap();
 
 
 
 
 
-        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        //                                               # #                                                            //
-        //                                              #   #                                                           //
-        //                                                 #                                                            //
-        //                                                #                                                             //
-        //                                               #####                                                          //
-        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                //                                                                                                               //
+                //                                                 ###                                                           //
+                //                                                #   #                                                          //
+                //                                                    #                                                          //
+                //                                                   #                                                           //
+                //                                                 #                                                             //
+                //                                                #####                                                          //
+                //                                                                                                               //
+                ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-        // //---------------DAY2----9-Sum-of-5-number-------------------
-        // Console.WriteLine("\n");
 
-        // SumOfNumberWhile sumWhileObj = new SumOfNumberWhile();
-        // sumWhileObj.sum();
+                // //---------------DAY2----9-Sum-of-5-number-------------------
+                // Console.WriteLine("\n");
 
+                // SumOfNumberWhile sumWhileObj = new SumOfNumberWhile();
+                // sumWhileObj.sum();
 
 
-        // //---------------DAY2---10-Do-while-Example------------------
-        // Console.WriteLine("\n");
 
-        // DoWhileExample doWhileObj = new DoWhileExample();
-        // doWhileObj.Example1();
+                // //---------------DAY2---10-Do-while-Example------------------
+                // Console.WriteLine("\n");
 
+                // DoWhileExample doWhileObj = new DoWhileExample();
+                // doWhileObj.Example1();
 
 
-        // //---------------DAY2---11-Table-Using-For-Loop-----------------
-        // Console.WriteLine("\n");
 
-        // TableUsingForLoop tableObj = new TableUsingForLoop();
-        // tableObj.table();
+                // //---------------DAY2---11-Table-Using-For-Loop-----------------
+                // Console.WriteLine("\n");
 
+                // TableUsingForLoop tableObj = new TableUsingForLoop();
+                // tableObj.table();
 
 
-        // //---------------DAY2---12-Break-Continue-Example-----------------
-        // Console.WriteLine("\n");
 
-        // BreakContinueExample breakContObj = new BreakContinueExample();
-        // breakContObj.BreakExample();
-        // breakContObj.ContinueExample();
+                // //---------------DAY2---12-Break-Continue-Example-----------------
+                // Console.WriteLine("\n");
 
+                // BreakContinueExample breakContObj = new BreakContinueExample();
+                // breakContObj.BreakExample();
+                // breakContObj.ContinueExample();
 
 
-        // //---------------DAY2---13-BANK-Question---------------------------
-        // Console.WriteLine("\n");
 
-        // BankApp bankObj = new BankApp();
-        // bankObj.runProgram();
+                // //---------------DAY2---13-BANK-Question---------------------------
+                // Console.WriteLine("\n");
 
+                // BankApp bankObj = new BankApp();
+                // bankObj.runProgram();
 
 
-        // //---------------DAY2---14-FINANCE-APP-----------------------------
-        // ---------Project Finance APP--------------
-        // Located in PROJECT folder
 
+                // //---------------DAY2---14-FINANCE-APP-----------------------------
+                // ---------Project Finance APP--------------
+                // Located in PROJECT folder
 
 
 
-        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        //                                               ####                                                           //
-        //                                                    #                                                         //
-        //                                                ####                                                          //
-        //                                                    #                                                         //
-        //                                               #####                                                          //
-        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-        // //---------------DAY3---15-CLASS-and-OBJECT-------------------------
-        // Console.WriteLine("\n");
+                ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                //                                                                                                               //
+                //                                                #####                                                          //
+                //                                                    #                                                          //
+                //                                                #####                                                          //
+                //                                                    #                                                          //
+                //                                                #####                                                          //
+                //                                                                                                               //
+                ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-        // _15_BankAccount bankAccObj = new _15_BankAccount();
-        // bankAccObj.AccNum = 101;
-        // bankAccObj.Balance = 10000;
-        // Console.WriteLine($"Account number is {bankAccObj.AccNum} and salary present is {bankAccObj.Balance}");
-        // bankAccObj.Deposit(1234);
-        // Console.WriteLine($"salary after deposite amount is {bankAccObj.Balance}");
 
+                // //---------------DAY3---15-CLASS-and-OBJECT-------------------------
+                // Console.WriteLine("\n");
 
-        // _15_Employee empObj = new _15_Employee();
-        // empObj.Name = "Sandeep";
-        // empObj.Salary = 100000;
-        // empObj.DisplayDetails();
+                // _15_BankAccount bankAccObj = new _15_BankAccount();
+                // bankAccObj.AccNum = 101;
+                // bankAccObj.Balance = 10000;
+                // Console.WriteLine($"Account number is {bankAccObj.AccNum} and salary present is {bankAccObj.Balance}");
+                // bankAccObj.Deposit(1234);
+                // Console.WriteLine($"salary after deposite amount is {bankAccObj.Balance}");
 
 
+                // _15_Employee empObj = new _15_Employee();
+                // empObj.Name = "Sandeep";
+                // empObj.Salary = 100000;
+                // empObj.DisplayDetails();
 
 
-        // //---------------DAY3---16-WALLET-PROGRAM--------------------------
-        // Console.WriteLine("\n");
 
-        // _16_Wallet walletObj = new _16_Wallet(1000);
-        // double money = walletObj.GetMoney();
-        // Console.WriteLine($"Money in your wallet is {money}");
 
-        // walletObj.AddMoney(234);
-        // money = walletObj.GetMoney();
-        // Console.WriteLine($"Money in your wallet is {money}");
+                // //---------------DAY3---16-WALLET-PROGRAM--------------------------
+                // Console.WriteLine("\n");
 
+                // _16_Wallet walletObj = new _16_Wallet(1000);
+                // double money = walletObj.GetMoney();
+                // Console.WriteLine($"Money in your wallet is {money}");
 
+                // walletObj.AddMoney(234);
+                // money = walletObj.GetMoney();
+                // Console.WriteLine($"Money in your wallet is {money}");
 
 
-        // //---------------DAY3---17-FUNCTION-OVERLOADING------------------------
-        // Console.WriteLine("\n");
 
-        // Console.WriteLine("Sum is "+_17_FunctionOverloading.Add(1,2));
 
-        // _17_FunctionOverloading funcOverObj = new _17_FunctionOverloading();
+                // //---------------DAY3---17-FUNCTION-OVERLOADING------------------------
+                // Console.WriteLine("\n");
 
-        // int intAns = funcOverObj.Add(1, 3);
-        // Console.WriteLine("Sum is " + intAns);
+                // Console.WriteLine("Sum is "+_17_FunctionOverloading.Add(1,2));
 
-        // double doubleAns = funcOverObj.Add(1.1, 3);
-        // Console.WriteLine("Sum is " + doubleAns);
+                // _17_FunctionOverloading funcOverObj = new _17_FunctionOverloading();
 
-        // int threeIntAns = funcOverObj.Add(1, 2, 3);
-        // Console.WriteLine("Sum is " + threeIntAns);
+                // int intAns = funcOverObj.Add(1, 3);
+                // Console.WriteLine("Sum is " + intAns);
 
-        // string strAns = funcOverObj.Add("Hello ", "CSharp");
-        // Console.WriteLine("Result is " + strAns);
+                // double doubleAns = funcOverObj.Add(1.1, 3);
+                // Console.WriteLine("Sum is " + doubleAns);
 
-        // int paramsAns = funcOverObj.Add(1, 2, 3, 4, 5);
-        // Console.WriteLine("Sum is " + paramsAns);
+                // int threeIntAns = funcOverObj.Add(1, 2, 3);
+                // Console.WriteLine("Sum is " + threeIntAns);
 
+                // string strAns = funcOverObj.Add("Hello ", "CSharp");
+                // Console.WriteLine("Result is " + strAns);
 
+                // int paramsAns = funcOverObj.Add(1, 2, 3, 4, 5);
+                // Console.WriteLine("Sum is " + paramsAns);
 
 
-        // //---------------DAY3---18-PARAMETERS-and-ITs-TYPES--------------------
-        // Console.WriteLine("\n");
 
-        // _18_Parameters paraObj = new _18_Parameters();
-        // paraObj.person("Sandeep","Ballia",21,12211815,"Lovely Professional University");
-        // Console.WriteLine("");
-        // paraObj.person("Sandeep","Ballia",21,12211815);
-        // Console.WriteLine("");
-        // paraObj.person(name:"Sandeep",city:"Ballia",age:21,rollNo:12211815,"IIT");
-        // Console.WriteLine("");
-        // paraObj.person(city:"Ballia",name:"Sandeep",rollNo:12211815,age:21,college:"IIT");
-        // Console.WriteLine("");
-        // //this will now show error becuse if position of the parameter are chaged then the default agrument names showuld br given
-        // // paraObj.person(city:"Ballia",name:"Sandeep",rollNo:12211815,age:21,"IIT");
 
-        // Console.WriteLine("");
-        // paraObj.Params(1,2,3);
-        // paraObj.Params3(1,"A","B","C"); //here will be become the name bydefualt even you dont want
-        // paraObj.Params3(1,str: new string[]{"A","B","C"}); // so use this if default value to be used
+                // //---------------DAY3---18-PARAMETERS-and-ITs-TYPES--------------------
+                // Console.WriteLine("\n");
 
-        //this will also not work
-        //paraObj.Params4(1,3,4,5,6); //compiler will treat 3 as the name input but error as string can not be converted to int
-        // paraObj.Params4(1,arr: new int[]{3,4,5,6});
+                // _18_Parameters paraObj = new _18_Parameters();
+                // paraObj.person("Sandeep","Ballia",21,12211815,"Lovely Professional University");
+                // Console.WriteLine("");
+                // paraObj.person("Sandeep","Ballia",21,12211815);
+                // Console.WriteLine("");
+                // paraObj.person(name:"Sandeep",city:"Ballia",age:21,rollNo:12211815,"IIT");
+                // Console.WriteLine("");
+                // paraObj.person(city:"Ballia",name:"Sandeep",rollNo:12211815,age:21,college:"IIT");
+                // Console.WriteLine("");
+                // //this will now show error becuse if position of the parameter are chaged then the default agrument names showuld br given
+                // // paraObj.person(city:"Ballia",name:"Sandeep",rollNo:12211815,age:21,"IIT");
 
-        // _18_Parameters p1Obj = new _18_Parameters();
-        // p1Obj.Params(1,2,3,4,5);
-        // p1Obj.Params(1,2,3,4,5,6,7);
+                // Console.WriteLine("");
+                // paraObj.Params(1,2,3);
+                // paraObj.Params3(1,"A","B","C"); //here will be become the name bydefualt even you dont want
+                // paraObj.Params3(1,str: new string[]{"A","B","C"}); // so use this if default value to be used
 
+                //this will also not work
+                //paraObj.Params4(1,3,4,5,6); //compiler will treat 3 as the name input but error as string can not be converted to int
+                // paraObj.Params4(1,arr: new int[]{3,4,5,6});
 
+                // _18_Parameters p1Obj = new _18_Parameters();
+                // p1Obj.Params(1,2,3,4,5);
+                // p1Obj.Params(1,2,3,4,5,6,7);
 
 
-        // //---------------DAY3---19-REF-OUT-EXAMPLE------------------------------
-        // Console.WriteLine("");
 
-        // _19_Refrencse refObj = new _19_Refrencse();
-        // refObj.runProgram();
 
+                // //---------------DAY3---19-REF-OUT-EXAMPLE------------------------------
+                // Console.WriteLine("");
 
+                // _19_Refrencse refObj = new _19_Refrencse();
+                // refObj.runProgram();
 
 
-        // //---------------DAY3---20-CALCULATOR--FUNCTION-INSIDE-FUNCTION--------------------------------
-        // Console.WriteLine("");
 
-        // _20_Calculator calObj = new _20_Calculator();
-        // calObj.calculate(10,23);
 
+                // //---------------DAY3---20-CALCULATOR--FUNCTION-INSIDE-FUNCTION--------------------------------
+                // Console.WriteLine("");
 
+                // _20_Calculator calObj = new _20_Calculator();
+                // calObj.calculate(10,23);
 
 
-        // //---------------DAY4---21-LAMDA-FUNCTION-EXAMPLE------------------------------------------------
-        // Console.WriteLine("");
 
-        // _21_Lamda_Static lamdaStaticObj = new _21_Lamda_Static();
 
-        // Console.WriteLine("---------------Lamda Example------------------");
-        // lamdaStaticObj.ExampleLamda();
+                // //---------------DAY4---21-LAMDA-FUNCTION-EXAMPLE------------------------------------------------
+                // Console.WriteLine("");
 
-        // Console.WriteLine("\n---------------Static Example-----------------");
-        // lamdaStaticObj.ExampleStatic(); // non static function can use static variables
-        // _21_Lamda_Static.ExampleStatic2();  // static function can not use non static variables
+                // _21_Lamda_Static lamdaStaticObj = new _21_Lamda_Static();
 
+                // Console.WriteLine("---------------Lamda Example------------------");
+                // lamdaStaticObj.ExampleLamda();
 
+                // Console.WriteLine("\n---------------Static Example-----------------");
+                // lamdaStaticObj.ExampleStatic(); // non static function can use static variables
+                // _21_Lamda_Static.ExampleStatic2();  // static function can not use non static variables
 
 
-        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        //                                                #                                                             //
-        //                                              # #                                                             //
-        //                                             #  #                                                             //
-        //                                            # ###                                                             //
-        //                                                #                                                             //
-        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-        // //---------------DAY4---22---CONSTRUCTER---------------------------------------
-        // Console.WriteLine("");
 
-        // _22_Constructor obj1 = new _22_Constructor();
-        // obj1.DisplayDetails();
+                ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                //                                                                                                               //
+                //                                                #   #                                                          //
+                //                                                #   #                                                          //
+                //                                                #####                                                          //
+                //                                                    #                                                          //
+                //                                                    #                                                          //
+                //                                                                                                               //
+                ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-        // _22_Constructor obj2 = new _22_Constructor("Rahul", 12);
-        // obj2.DisplayDetails();
 
-        // obj1.Constructor();
-        // obj1.DisplayDetails();
+                // //---------------DAY4---22---CONSTRUCTER---------------------------------------
+                // Console.WriteLine("");
 
+                // _22_Constructor obj1 = new _22_Constructor();
+                // obj1.DisplayDetails();
 
+                // _22_Constructor obj2 = new _22_Constructor("Rahul", 12);
+                // obj2.DisplayDetails();
 
-        // //-----------------DAY4---23--INHERITANCE--------------------------------------
-        // Console.WriteLine("");
+                // obj1.Constructor();
+                // obj1.DisplayDetails();
 
-        // Console.WriteLine("----- ACCESS MODIFIER + CONSTRUCTOR CHAINING -----");
-        // _23_FixedDeposit fd = new _23_FixedDeposit("Sandeep");
-        // fd.DisplayDetails();
 
-        // Console.WriteLine("\n----- SINGLE INHERITANCE -----");
-        // _23_Car car = new _23_Car();
-        // car.Start();
-        // car.Drive();
 
-        // Console.WriteLine("\n----- CONSTRUCTOR CHAINING (base) -----");
-        // _23_Student student = new _23_Student("Amit", 101);
-        // Console.WriteLine(student.Name);
-        // Console.WriteLine(student.RollNo);
+                // //-----------------DAY4---23--INHERITANCE--------------------------------------
+                // Console.WriteLine("");
 
-        // Console.WriteLine("\n----- MULTILEVEL INHERITANCE -----");
-        // _23_Employee emp = new _23_Employee();
-        // emp.Breathe();
-        // emp.Think();
-        // emp.Work();
+                // Console.WriteLine("----- ACCESS MODIFIER + CONSTRUCTOR CHAINING -----");
+                // _23_FixedDeposit fd = new _23_FixedDeposit("Sandeep");
+                // fd.DisplayDetails();
 
-        // Console.WriteLine("\n----- HIERARCHICAL INHERITANCE -----");
-        // _23_Circle circle = new _23_Circle();
-        // _23_Rectangle rectangle = new _23_Rectangle();
-        // circle.Draw();
-        // rectangle.Draw();
+                // Console.WriteLine("\n----- SINGLE INHERITANCE -----");
+                // _23_Car car = new _23_Car();
+                // car.Start();
+                // car.Drive();
 
-        // Console.WriteLine("\n----- MULTIPLE INHERITANCE USING INTERFACES -----");
-        // _23_Machine machine = new _23_Machine();
-        // machine.Print();
-        // machine.Scan();
+                // Console.WriteLine("\n----- CONSTRUCTOR CHAINING (base) -----");
+                // _23_Student student = new _23_Student("Amit", 101);
+                // Console.WriteLine(student.Name);
+                // Console.WriteLine(student.RollNo);
 
-        // Console.WriteLine("\n----- METHOD OVERRIDING (RUNTIME POLYMORPHISM) -----");
-        // _23_Animal animal = new _23_Dog();
-        // animal.Sound();
+                // Console.WriteLine("\n----- MULTILEVEL INHERITANCE -----");
+                // _23_Employee emp = new _23_Employee();
+                // emp.Breathe();
+                // emp.Think();
+                // emp.Work();
 
-        // Console.WriteLine("\n----- base KEYWORD WITH OVERRIDING -----");
-        // _23_AnimalBase dogBase = new _23_DogDerived();
-        // dogBase.Speak();
+                // Console.WriteLine("\n----- HIERARCHICAL INHERITANCE -----");
+                // _23_Circle circle = new _23_Circle();
+                // _23_Rectangle rectangle = new _23_Rectangle();
+                // circle.Draw();
+                // rectangle.Draw();
 
-        // Console.WriteLine("\n----- METHOD HIDING -----");
-        // _23_ParentHide p = new _23_ChildHide();
-        // p.Show();
-        // _23_ChildHide c = new _23_ChildHide();
-        // c.Show();
+                // Console.WriteLine("\n----- MULTIPLE INHERITANCE USING INTERFACES -----");
+                // _23_Machine machine = new _23_Machine();
+                // machine.Print();
+                // machine.Scan();
 
-        // Console.WriteLine("\n----- STATIC METHOD HIDING -----");
-        // _23_StaticA.Display();
-        // _23_StaticB.Display();
+                // Console.WriteLine("\n----- METHOD OVERRIDING (RUNTIME POLYMORPHISM) -----");
+                // _23_Animal animal = new _23_Dog();
+                // animal.Sound();
 
-        // Console.WriteLine("\n----- SEALED CLASS -----");
-        // _23_Security security = new _23_Security();
-        // security.Access();
+                // Console.WriteLine("\n----- base KEYWORD WITH OVERRIDING -----");
+                // _23_AnimalBase dogBase = new _23_DogDerived();
+                // dogBase.Speak();
 
-        // Console.WriteLine("\n----- SEALED METHOD -----");
-        // _23_Parent parent = new _23_Child();
-        // parent.Show();
+                // Console.WriteLine("\n----- METHOD HIDING -----");
+                // _23_ParentHide p = new _23_ChildHide();
+                // p.Show();
+                // _23_ChildHide c = new _23_ChildHide();
+                // c.Show();
 
-        // Console.WriteLine("\n----- COMPOSITION (HAS-A) -----");
-        // _23_CarComposition carComp = new _23_CarComposition();
-        // carComp.Drive();
+                // Console.WriteLine("\n----- STATIC METHOD HIDING -----");
+                // _23_StaticA.Display();
+                // _23_StaticB.Display();
 
+                // Console.WriteLine("\n----- SEALED CLASS -----");
+                // _23_Security security = new _23_Security();
+                // security.Access();
 
+                // Console.WriteLine("\n----- SEALED METHOD -----");
+                // _23_Parent parent = new _23_Child();
+                // parent.Show();
 
+                // Console.WriteLine("\n----- COMPOSITION (HAS-A) -----");
+                // _23_CarComposition carComp = new _23_CarComposition();
+                // carComp.Drive();
 
 
-        // //---------------DAY4---24---Getter-Setters----------------------------
-        // Console.WriteLine("");
 
-        // // ---------------- EMPLOYEE ----------------
-        // _24_Employee e = new _24_Employee();   // object creation
-        // e.Salary = 40000;                      // setter called
 
-        // Console.WriteLine("Employee Salary");
-        // Console.WriteLine(e.Salary);            // getter called
-        // Console.WriteLine("--------------------------------");
 
+                // //---------------DAY4---24---Getter-Setters----------------------------
+                // Console.WriteLine("");
 
-        // // ---------------- PRODUCT ----------------
-        // _24_Product p = new _24_Product();     // object creation
-        // p.ProductId = 101;                     // set property
-        // p.ProductName = "Laptop";              // set auto property
-        // p.Price = 55000;                       // set auto property
+                // // ---------------- EMPLOYEE ----------------
+                // _24_Employee e = new _24_Employee();   // object creation
+                // e.Salary = 40000;                      // setter called
 
-        // Console.WriteLine("Product Details");
-        // Console.WriteLine(p.ProductId);
-        // Console.WriteLine(p.ProductName);
-        // Console.WriteLine(p.Price);
-        // Console.WriteLine("--------------------------------");
+                // Console.WriteLine("Employee Salary");
+                // Console.WriteLine(e.Salary);            // getter called
+                // Console.WriteLine("--------------------------------");
 
 
-        // // ---------------- STUDENT ----------------
-        // _24_Student s = new _24_Student();     // object creation
-        // s.RollNo = 1;                          // set auto property
-        // s.Name = "Sandeep";                    // set auto property
-        // s.Course = "CSE";                      // set auto property
+                // // ---------------- PRODUCT ----------------
+                // _24_Product p = new _24_Product();     // object creation
+                // p.ProductId = 101;                     // set property
+                // p.ProductName = "Laptop";              // set auto property
+                // p.Price = 55000;                       // set auto property
 
-        // Console.WriteLine("Student Details");
-        // Console.WriteLine(s.RollNo);
-        // Console.WriteLine(s.Name);
-        // Console.WriteLine(s.Course);
-        // Console.WriteLine("--------------------------------");
+                // Console.WriteLine("Product Details");
+                // Console.WriteLine(p.ProductId);
+                // Console.WriteLine(p.ProductName);
+                // Console.WriteLine(p.Price);
+                // Console.WriteLine("--------------------------------");
 
 
-        // // ---------------- CIRCLE ----------------
-        // _24_Circle c = new _24_Circle(5);      // constructor call
+                // // ---------------- STUDENT ----------------
+                // _24_Student s = new _24_Student();     // object creation
+                // s.RollNo = 1;                          // set auto property
+                // s.Name = "Sandeep";                    // set auto property
+                // s.Course = "CSE";                      // set auto property
 
-        // Console.WriteLine("Circle Area");
-        // Console.WriteLine(c.Area);              // read-only property
-        // Console.WriteLine("--------------------------------");
+                // Console.WriteLine("Student Details");
+                // Console.WriteLine(s.RollNo);
+                // Console.WriteLine(s.Name);
+                // Console.WriteLine(s.Course);
+                // Console.WriteLine("--------------------------------");
 
 
-        // //-----------------EXPRESSION-BODIED-OPERATOR-------------------
-        // _25_Rectangle recObj = new _25_Rectangle();
-        // recObj.Length = 12;
-        // recObj.Width = 12;
-        // Console.WriteLine($"Area of the rectangle is ::>> {recObj.Area}");
+                // // ---------------- CIRCLE ----------------
+                // _24_Circle c = new _24_Circle(5);      // constructor call
 
+                // Console.WriteLine("Circle Area");
+                // Console.WriteLine(c.Area);              // read-only property
+                // Console.WriteLine("--------------------------------");
 
 
-        // //---------DAY4---25--Get--Set---------------------------
-        // Console.WriteLine("");
-        // _25_Student stuObj = new _25_Student();
-        // stuObj.Name = "Sandeep";
-        // stuObj.Age = 23;
-        // stuObj.Marks = 68;
+                // //-----------------EXPRESSION-BODIED-OPERATOR-------------------
+                // _25_Rectangle recObj = new _25_Rectangle();
+                // recObj.Length = 12;
+                // recObj.Width = 12;
+                // Console.WriteLine($"Area of the rectangle is ::>> {recObj.Area}");
 
-        // stuObj.DisplayDetails();
 
 
+                // //---------DAY4---25--Get--Set---------------------------
+                // Console.WriteLine("");
+                // _25_Student stuObj = new _25_Student();
+                // stuObj.Name = "Sandeep";
+                // stuObj.Age = 23;
+                // stuObj.Marks = 68;
 
-        // //----------DAY4---26--Indexer----------------------------
-        // Console.WriteLine("");
+                // stuObj.DisplayDetails();
 
-        // _26_StudentCollection stuObj = new _26_StudentCollection();
-        // stuObj.SetStudent(0,"Sandeep");
-        // Console.WriteLine($"Getting the Student data 0 ::>> {stuObj.GetStudent(0)}");
 
 
+                // //----------DAY4---26--Indexer----------------------------
+                // Console.WriteLine("");
 
+                // _26_StudentCollection stuObj = new _26_StudentCollection();
+                // stuObj.SetStudent(0,"Sandeep");
+                // Console.WriteLine($"Getting the Student data 0 ::>> {stuObj.GetStudent(0)}");
 
-        // //----------DAy
-        // FileLogger fl = new FileLogger();
-        // fl.Ilogger.Log(); 
 
-        // Console.WriteLine(Sqrt(25));
-        // Console.WriteLine(Sqrt());
-    }
+
+
+
+
+                ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                //                                                                                                              //
+                //                                                #####                                                         //
+                //                                                #                                                             //
+                //                                                ####                                                          //
+                //                                                    #                                                         //
+                //                                                ####                                                          //
+                //                                                                                                              //
+                ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+                // //----------DAy
+                // FileLogger fl = new FileLogger();
+                // fl.Ilogger.Log(); 
+
+                // Console.WriteLine(Sqrt(25));
+                // Console.WriteLine(Sqrt());
+
+
+
+
+
+
+                ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                //                                                  #                                                            //
+                //                                                #                                                              //
+                //                                               #                                                               //
+                //                                               ####                                                            //
+                //                                               #   #                                                           //
+                //                                                ###                                                            //
+                //                                                                                                               //
+                ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+                // //----------------------DAY6--31---STRUCTRE-and CLASS-Diffrence----------------
+                // Console.WriteLine("");
+
+                // _31_Program _31Obj = new _31_Program();
+                // _31Obj.Main();
+
+
+
+
+                // //-------------------DAY6--32---Object-Class-Methods------------------------------------------
+                // Console.WriteLine("");
+
+                // _32_Program _32Obj = new _32_Program();
+                // _32Obj.Main();
+
+
+
+                // //-------------------DAY6--33---Generic-Data-Types------------------------------------------
+                // Console.WriteLine("");
+
+                // _33_Program _33Obj = new _33_Program();
+                // _33Obj.Main();
+
+
+                // //-------------------DAY6--34---Nullable-Coalescing-Propagation------------------------------------------
+                // Console.WriteLine("");
+
+                // _34_Program _34Obj = new _34_Program();
+                // _34Obj.Main();
+
+
+                // //-------------------DAY6--35---Nullable-Coalescing-Propagation------------------------------------------
+                // Console.WriteLine("");
+
+                // _35_Program obj = new _35_Program();
+                // obj.Main();
+
+
+
+
+
+
+                // // --------------------DAY7-37--Arrays---------------------------
+                // Console.WriteLine("");
+
+                // _37_Program _37Obj = new _37_Program();
+                // _37Obj.Main();
+                
+                
+                
+                // // --------------------DAY7-37--COLLECTIONS---------------------------
+                Console.WriteLine("");
+
+                _38_Program _38Obj = new _38_Program();
+                _38Obj.Main();
+
+        }
 }

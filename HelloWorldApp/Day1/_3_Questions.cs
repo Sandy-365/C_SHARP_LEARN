@@ -138,7 +138,7 @@ advanced programming concepts.
 */
 
 
-class Questions
+class _3_Questions
 {
     public void Ques()
     {
@@ -362,4 +362,16 @@ class Questions
         }
     }
 
+}
+
+
+class _3_Questions_Program
+{
+    public void Main()
+    {
+        Console.WriteLine("\n--- DAY 1 : QUESTIONS PRACTICE (PROGRAM 3) ---\n");
+
+        _3_Questions q = new _3_Questions();
+        q.Ques();
+    }
 }

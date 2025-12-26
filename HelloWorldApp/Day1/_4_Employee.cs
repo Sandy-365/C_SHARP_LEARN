@@ -94,6 +94,10 @@ class Employee
     float Salary;
     char Gender;
 
+    public Employee()
+    {
+        
+    }
     public Employee(int Id,string Name,string Department,float Salary,char Gender)
     {
         this.Id = Id;
@@ -142,5 +146,25 @@ class Employee
         Console.WriteLine($"Department is ::>> {Department}");
         Console.WriteLine($"Salary is ::>> {Salary}");
         Console.WriteLine($"Gender is ::>> {Gender}");
+    }
+}
+
+class _4_Program
+{
+    public void Main()
+    {
+        Console.WriteLine("\n--- DAY 1 : EMPLOYEE PROGRAM ---\n");
+
+        Employee emp1 = new Employee();
+
+        // emp1.AcceptDetails(1,"Sandeep","CSE",2000.45f,'M');
+
+        Console.WriteLine("\nEnter Employee Details:\n");
+        emp1.AcceptDetails();
+
+        Console.WriteLine("\nEmployee Details:\n");
+        emp1.DisplayDetails();
+
+        Console.WriteLine("\n");
     }
 }

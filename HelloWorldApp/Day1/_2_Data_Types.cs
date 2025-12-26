@@ -82,7 +82,7 @@ properly in variables.
 */
 
 
-class Data_Types
+class _2_Data_Types
 {
     int NumInt;
     long NumLong;
@@ -92,7 +92,7 @@ class Data_Types
     char CharInp;
     string StringInp;
 
-    public Data_Types()
+    public _2_Data_Types()
     {
         NumInt = 1000;
         NumLong = 1001L;
@@ -164,3 +164,26 @@ class Data_Types
     }
 
 }
+
+// ------------------------------------------------------------
+// RUNNER CLASS (called from Program.cs)
+// ------------------------------------------------------------
+class _2_Program
+{
+    public void Main()
+    {
+        Console.WriteLine("\n--- DAY 1 : DATA TYPES PROGRAM ---\n");
+
+        _2_Data_Types obj = new _2_Data_Types();
+
+        Console.WriteLine("Default Values:");
+        obj.PrintAll();
+
+        Console.WriteLine("\nEnter New Values:");
+        obj.Take_Input();
+
+        Console.WriteLine("\nUpdated Values:");
+        obj.PrintAll();
+    }
+}
+
