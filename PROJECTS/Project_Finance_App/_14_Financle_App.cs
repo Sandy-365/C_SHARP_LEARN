@@ -188,6 +188,7 @@ class FinanceApp
 			}
 
 		} while (choice != 3);
+		
 	}
 }
 
