@@ -1,0 +1,15 @@
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\Project_MediSure_Clinic_Simple_Patient_Billing\bin\Debug\net10.0\Project_MediSure_Clinic_Simple_Patient_Billing.exe
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\Project_MediSure_Clinic_Simple_Patient_Billing\bin\Debug\net10.0\Project_MediSure_Clinic_Simple_Patient_Billing.deps.json
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\Project_MediSure_Clinic_Simple_Patient_Billing\bin\Debug\net10.0\Project_MediSure_Clinic_Simple_Patient_Billing.runtimeconfig.json
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\Project_MediSure_Clinic_Simple_Patient_Billing\bin\Debug\net10.0\Project_MediSure_Clinic_Simple_Patient_Billing.dll
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\Project_MediSure_Clinic_Simple_Patient_Billing\bin\Debug\net10.0\Project_MediSure_Clinic_Simple_Patient_Billing.pdb
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\Project_MediSure_Clinic_Simple_Patient_Billing\obj\Debug\net10.0\Project_MediSure_Clinic_Simple_Patient_Billing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\Project_MediSure_Clinic_Simple_Patient_Billing\obj\Debug\net10.0\Project_MediSure_Clinic_Simple_Patient_Billing.AssemblyInfoInputs.cache
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\Project_MediSure_Clinic_Simple_Patient_Billing\obj\Debug\net10.0\Project_MediSure_Clinic_Simple_Patient_Billing.AssemblyInfo.cs
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\Project_MediSure_Clinic_Simple_Patient_Billing\obj\Debug\net10.0\Project_MediSure_Clinic_Simple_Patient_Billing.csproj.CoreCompileInputs.cache
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\Project_MediSure_Clinic_Simple_Patient_Billing\obj\Debug\net10.0\Project_MediSure_Clinic_Simple_Patient_Billing.sourcelink.json
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\Project_MediSure_Clinic_Simple_Patient_Billing\obj\Debug\net10.0\Project_MediSure_Clinic_Simple_Patient_Billing.dll
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\Project_MediSure_Clinic_Simple_Patient_Billing\obj\Debug\net10.0\refint\Project_MediSure_Clinic_Simple_Patient_Billing.dll
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\Project_MediSure_Clinic_Simple_Patient_Billing\obj\Debug\net10.0\Project_MediSure_Clinic_Simple_Patient_Billing.pdb
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\Project_MediSure_Clinic_Simple_Patient_Billing\obj\Debug\net10.0\Project_MediSure_Clinic_Simple_Patient_Billing.genruntimeconfig.cache
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\Project_MediSure_Clinic_Simple_Patient_Billing\obj\Debug\net10.0\ref\Project_MediSure_Clinic_Simple_Patient_Billing.dll
