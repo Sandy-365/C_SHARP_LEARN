@@ -537,11 +537,24 @@ class HelloWorld
                 
                 
                 
-                // // --------------------DAY7-37--COLLECTIONS---------------------------
+                // // --------------------DAY7-38--COLLECTIONS---------------------------
+                // Console.WriteLine("");
+
+                // _38_Program _38Obj = new _38_Program();
+                // _38Obj.Main();
+                
+                
+                
+                
+                // // --------------------DAY7-39--QUESTIONS---------------------------
                 Console.WriteLine("");
 
-                _38_Program _38Obj = new _38_Program();
-                _38Obj.Main();
+                _39_Questions _39Obj = new _39_Questions();
+                _39Obj.Main();
+
+
+
+
 
         }
 }
