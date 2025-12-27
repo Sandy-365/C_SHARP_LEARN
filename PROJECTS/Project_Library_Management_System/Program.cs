@@ -23,7 +23,7 @@
         // magObj.extraDays = 100;
         magObj.CalculateLateFees(100);
         // magObj.DisplayItems();
-
+        
 
         LibraryItem[] libItems = new LibraryItem[2];
         libItems[0] = bookObj;

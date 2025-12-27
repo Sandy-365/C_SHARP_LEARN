@@ -15,6 +15,7 @@ public class Magazine : LibraryItem
         Console.WriteLine($"Author of the Book '{Title}' is ::>> {Author}");
         Console.WriteLine($"Item Id is ::>> {ItemId}");
         Console.WriteLine($"Late fee for exactly {ExtraDays} days is ::>> {LateFees}");
+        
     }
 
     public override void CalculateLateFees(int Days)
