@@ -3,7 +3,8 @@
     static PatientBill data = new PatientBill();
     static bool HasLastBill = true;
     public static void ShowMenu()
-    {   
+    {
+        Console.Clear();
         Console.WriteLine("\n\n");
         Console.WriteLine("\t\t.------------------------------------------------------------------------------.");
         Console.WriteLine("\t\t|                               MediSure Clinic Billing                        |");
@@ -19,13 +20,13 @@
     {
 
         Console.WriteLine("\t\t--------------------------------------------------------------------------------\n");
-        Console.Write("\t\t\tEnter Bill Id: ");
+        Console.Write("\t\t\tEnter Bill Id ::>> ");
         data.BillId = Console.ReadLine();
 
-        Console.Write("\t\t\tEnter Patient Name: ");
+        Console.Write("\t\t\tEnter Patient Name ::>> ");
         data.PatientName = Console.ReadLine();
 
-        Console.Write("\t\t\tIs the patient insured? (Y/N): ");
+        Console.Write("\t\t\tIs the patient insured? (Y/N) ::>> ");
         String str = Console.ReadLine();
         if (str.Equals("Y") || str.Equals("y"))
         {
@@ -37,13 +38,13 @@
         }
 
 
-        Console.Write("\t\t\tEnter Consultation Fee: ");
+        Console.Write("\t\t\tEnter Consultation Fee ::>> ");
         data.ConsultationFee = Convert.ToDecimal(Console.ReadLine());
 
-        Console.Write("\t\t\tEnter Lab Charges: ");
+        Console.Write("\t\t\tEnter Lab Charges ::>> ");
         data.LabCharges = Convert.ToDecimal(Console.ReadLine());
 
-        Console.Write("\t\t\tEnter Medicine Charges: ");
+        Console.Write("\t\t\tEnter Medicine Charges ::>> ");
         data.MedicineCharges = Convert.ToDecimal(Console.ReadLine());
 
         data.calcGrossAmount();
@@ -51,10 +52,10 @@
         data.calcFinalPayable();
 
         Console.WriteLine("\n\t\t\t\t.------------Bill created successfully.---------------.");
-        Console.WriteLine( $"\t\t\t\t|     Gross Amount\t:\t {data.GrossAmount,-20} |");
-        Console.WriteLine( $"\t\t\t\t|     Discount Amount\t:\t {data.DiscountAmount,-20} |");
-        Console.WriteLine( $"\t\t\t\t|     Final Payable\t:\t {data.FinalPayable,-20} |");
-        Console.WriteLine( "\t\t\t\t'-----------------------------------------------------'");
+        Console.WriteLine($"\t\t\t\t|     Gross Amount\t:\t {data.GrossAmount,-20} |");
+        Console.WriteLine($"\t\t\t\t|     Discount Amount\t:\t {data.DiscountAmount,-20} |");
+        Console.WriteLine($"\t\t\t\t|     Final Payable\t:\t {data.FinalPayable,-20} |");
+        Console.WriteLine("\t\t\t\t'-----------------------------------------------------'");
 
         Console.WriteLine("\t\t-----------------------------------------------------------------------------------");
 
@@ -99,6 +100,14 @@
         Console.WriteLine("\n\t\t\t----------------------LAST BILL REMOVED-------------------------");
     }
 
+    public static void clearScreen()
+    {
+        Console.Write("\t\t\tPress any key ::>> ");
+        Console.ReadLine();
+        Console.Clear();
+
+    }
+
     public static void Main(string[] args)
     {
         int ch = 0;
@@ -110,18 +119,22 @@
             {
                 case 1:
                     CreateNewBill();
+                    clearScreen();
                     break;
                 case 2:
                     ViewLastBill();
+                    clearScreen();
                     break;
                 case 3:
                     ClearLastBill();
+                    clearScreen();
                     break;
                 case 4:
                     Console.WriteLine("\n\t\t\t---------------Thank you. Application closed normally.------------------");
                     break;
                 default:
                     Console.WriteLine("\n\t\t\t-------------------------ENTER YOUR CHOICE BETWEEN 1-4 ONLY---------------------");
+                    clearScreen();
                     break;
             }
         }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Project_MediSure_Clinic_Simple_Patient_Billing")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+39e0fb6ebf45d23558a33730f51522f0546c543a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+595f19627d5815d53ff7e635eca899c5123f652a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Project_MediSure_Clinic_Simple_Patient_Billing")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Project_MediSure_Clinic_Simple_Patient_Billing")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
