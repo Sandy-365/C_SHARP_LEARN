@@ -1,0 +1,15 @@
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\Project_Enterprise\bin\Debug\net10.0\Project_Enterprise.exe
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\Project_Enterprise\bin\Debug\net10.0\Project_Enterprise.deps.json
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\Project_Enterprise\bin\Debug\net10.0\Project_Enterprise.runtimeconfig.json
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\Project_Enterprise\bin\Debug\net10.0\Project_Enterprise.dll
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\Project_Enterprise\bin\Debug\net10.0\Project_Enterprise.pdb
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\Project_Enterprise\obj\Debug\net10.0\Project_Enterprise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\Project_Enterprise\obj\Debug\net10.0\Project_Enterprise.AssemblyInfoInputs.cache
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\Project_Enterprise\obj\Debug\net10.0\Project_Enterprise.AssemblyInfo.cs
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\Project_Enterprise\obj\Debug\net10.0\Project_Enterprise.csproj.CoreCompileInputs.cache
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\Project_Enterprise\obj\Debug\net10.0\Project_Enterprise.sourcelink.json
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\Project_Enterprise\obj\Debug\net10.0\Project_Enterprise.dll
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\Project_Enterprise\obj\Debug\net10.0\refint\Project_Enterprise.dll
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\Project_Enterprise\obj\Debug\net10.0\Project_Enterprise.pdb
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\Project_Enterprise\obj\Debug\net10.0\Project_Enterprise.genruntimeconfig.cache
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\Project_Enterprise\obj\Debug\net10.0\ref\Project_Enterprise.dll

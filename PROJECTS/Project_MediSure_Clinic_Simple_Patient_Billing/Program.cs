@@ -50,6 +50,7 @@
         data.calcGrossAmount();
         data.calcDiscountAmount();
         data.calcFinalPayable();
+        HasLastBill=true;
 
         Console.WriteLine("\n\t\t\t\t.------------Bill created successfully.---------------.");
         Console.WriteLine($"\t\t\t\t|     Gross Amount\t:\t {data.GrossAmount,-20} |");

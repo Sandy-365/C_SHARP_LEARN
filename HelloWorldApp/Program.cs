@@ -547,10 +547,17 @@ class HelloWorld
                 
                 
                 // // --------------------DAY7-39--QUESTIONS---------------------------
+                // Console.WriteLine("");
+
+                // _39_Questions _39Obj = new _39_Questions();
+                // _39Obj.Main();
+
+
+
                 Console.WriteLine("");
 
-                _39_Questions _39Obj = new _39_Questions();
-                _39Obj.Main();
+                TryExcept obj = new TryExcept();
+                obj.Main();
 
 
 

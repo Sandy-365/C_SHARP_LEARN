@@ -1,9 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\HelloWorldApp",
     "\\PROJECTS",
-    "\\PROJECTS\\Project_Library_Management_System"
+    "\\PROJECTS\\Project_Stream_Buzz"
   ],
-  "SelectedNode": "\\PROJECTS\\Project_Library_Management_System\\_1_1_1_Book.cs",
+  "SelectedNode": "\\PROJECTS\\Project_Stream_Buzz\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
