@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Project_Stream_Buzz")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a23f5796252b1ffa212692496bcb8e4d4dc1791f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f7a6729aceea883a360ffca3aa1e846cdfabff27")]
 [assembly: System.Reflection.AssemblyProductAttribute("Project_Stream_Buzz")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Project_Stream_Buzz")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
