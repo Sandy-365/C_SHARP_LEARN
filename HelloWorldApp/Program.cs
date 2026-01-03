@@ -602,6 +602,10 @@ class HelloWorld
                 // _47_String _47Obj = new _47_String();
                 // _47Obj.Main();
 
+                _47_Child _47ChildObj = new _47_Child();
+                // Console.WriteLine("Static memeber using Obj ::>> "+_47ChildObj.total);
+                Console.WriteLine("Static memeber ::>> "+_47_Child.total);
+
 
                 
         }

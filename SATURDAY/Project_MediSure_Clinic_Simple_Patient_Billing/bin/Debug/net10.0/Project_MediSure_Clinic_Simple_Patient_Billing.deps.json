@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Project_MediSure_Clinic_Simple_Patient_Billing/1.0.0": {
+        "runtime": {
+          "Project_MediSure_Clinic_Simple_Patient_Billing.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Project_MediSure_Clinic_Simple_Patient_Billing/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

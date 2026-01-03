@@ -1,0 +1,15 @@
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\Project_PayRollPro_OOPS\bin\Debug\net10.0\Project_PayRollPro_OOPS.exe
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\Project_PayRollPro_OOPS\bin\Debug\net10.0\Project_PayRollPro_OOPS.deps.json
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\Project_PayRollPro_OOPS\bin\Debug\net10.0\Project_PayRollPro_OOPS.runtimeconfig.json
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\Project_PayRollPro_OOPS\bin\Debug\net10.0\Project_PayRollPro_OOPS.dll
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\Project_PayRollPro_OOPS\bin\Debug\net10.0\Project_PayRollPro_OOPS.pdb
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\Project_PayRollPro_OOPS\obj\Debug\net10.0\Project_PayRollPro_OOPS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\Project_PayRollPro_OOPS\obj\Debug\net10.0\Project_PayRollPro_OOPS.AssemblyInfoInputs.cache
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\Project_PayRollPro_OOPS\obj\Debug\net10.0\Project_PayRollPro_OOPS.AssemblyInfo.cs
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\Project_PayRollPro_OOPS\obj\Debug\net10.0\Project_PayRollPro_OOPS.csproj.CoreCompileInputs.cache
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\Project_PayRollPro_OOPS\obj\Debug\net10.0\Project_PayRollPro_OOPS.sourcelink.json
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\Project_PayRollPro_OOPS\obj\Debug\net10.0\Project_PayRollPro_OOPS.dll
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\Project_PayRollPro_OOPS\obj\Debug\net10.0\refint\Project_PayRollPro_OOPS.dll
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\Project_PayRollPro_OOPS\obj\Debug\net10.0\Project_PayRollPro_OOPS.pdb
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\Project_PayRollPro_OOPS\obj\Debug\net10.0\Project_PayRollPro_OOPS.genruntimeconfig.cache
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\Project_PayRollPro_OOPS\obj\Debug\net10.0\ref\Project_PayRollPro_OOPS.dll

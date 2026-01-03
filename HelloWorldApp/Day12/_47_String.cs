@@ -1,6 +1,7 @@
 using System.Text;
 class _47_String
 {
+    public static int total = 13;
     public void Main()
     {
         // string str = "Sandeep";
@@ -39,5 +40,13 @@ class _47_String
 
         Console.WriteLine();
 
+    }
+}
+
+class _47_Child : _47_String
+{
+    public void Main()
+    {
+        Console.WriteLine("Hello from child");
     }
 }
