@@ -535,18 +535,18 @@ class HelloWorld
 
                 // _37_Program _37Obj = new _37_Program();
                 // _37Obj.Main();
-                
-                
-                
+
+
+
                 // // --------------------DAY7-38--COLLECTIONS---------------------------
                 // Console.WriteLine("");
 
                 // _38_Program _38Obj = new _38_Program();
                 // _38Obj.Main();
-                
-                
-                
-                
+
+
+
+
                 // // --------------------DAY7-39--QUESTIONS---------------------------
                 // Console.WriteLine("");
 
@@ -565,7 +565,44 @@ class HelloWorld
 
 
                 // //--------------------------DAY10--41--Pattern--Matching---------------------
-                _41_Regex _41Obj = new _41_Regex();
-                _41Obj.Main();
+                // _41_Regex _41Obj = new _41_Regex();
+                // _41Obj.Main();
+
+
+
+                // //---------------------------DAY11---42--Garbage Collection
+
+                // _42_Garbage _42Obj = new _42_Garbage();
+                // _42Obj.Main();
+
+                // (int, string) data = (1, "sandeep");
+                // Console.WriteLine("\nType of '(int,string) data = (1,\"sandeep\");' is " + data.GetType());
+
+
+                // var data1 = (1, "sandeep");
+                // Console.WriteLine("\nType of 'var data1 = (1,\"sandeep\");' is " + data1.GetType());
+
+                // var data2 = new { Id = 1, Name = "sandeep" };
+                // Console.WriteLine("\nType of 'var data2 = new (1,\"sandeep\");' is " + data2.GetType());
+                
+
+                // _43_Tuple _43Obj = new _43_Tuple();
+                // _43Obj.Main();
+
+                // _44_LINQ _44Obj = new _44_LINQ();
+                // _44Obj.Main();
+
+                // _45_Dispose _45Obj = new _45_Dispose();
+                // _45Obj.Main();
+
+                // _46_Example_Garbage _46Obj = new _46_Example_Garbage();
+                // _46Obj.Main();
+
+
+                // _47_String _47Obj = new _47_String();
+                // _47Obj.Main();
+
+
+                
         }
 }
