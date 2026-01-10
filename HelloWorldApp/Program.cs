@@ -1,7 +1,11 @@
-﻿using System.Text.RegularExpressions;
+﻿
 using System;
-using HelloWorldApp.Day3;
+using System.Text.RegularExpressions;
 using static System.Math;
+
+using SmartHomeSecurity;
+using HelloWorldApp.Day3;
+using EcommerceAssessment;
 
 class HelloWorld
 {
@@ -602,11 +606,51 @@ class HelloWorld
                 // _47_String _47Obj = new _47_String();
                 // _47Obj.Main();
 
-                _47_Child _47ChildObj = new _47_Child();
-                // Console.WriteLine("Static memeber using Obj ::>> "+_47ChildObj.total);
-                Console.WriteLine("Static memeber ::>> "+_47_Child.total);
+                // _47_Child _47ChildObj = new _47_Child();
+                // // Console.WriteLine("Static memeber using Obj ::>> "+_47ChildObj.total);
+                // Console.WriteLine("Static memeber ::>> "+_47_Child.total);
 
 
-                
+
+                // _48_Program  _48Obj = new _48_Program();
+                // _48Obj.Main(); 
+
+                // _49_Program  _49Obj = new _49_Program();
+                // _49Obj.Main(); 
+
+                // _50_Program  _50Obj = new _50_Program();
+                // _50Obj.Main(); 
+
+                // _52_Program  _52Obj = new _52_Program();
+                // _52Obj.Main(); 
+
+                // _53_Program  _53Obj = new _53_Program();
+                // _53Obj.Main(); 
+
+
+                // _54_Program  _54Obj = new _54_Program();
+                // _54Obj.Main(); 
+
+
+                // _55_Program  _55Obj = new _55_Program();
+                // _55Obj.Main(); 
+
+                // _56_Program  _56Obj = new _56_Program();
+                // _56Obj.Main(); 
+
+                // _57_Program  _57Obj = new _57_Program();
+                // _57Obj.Main(); 
+
+                // _58_Program  _58Obj = new _58_Program();
+                // _58Obj.Main(); 
+
+                // _59_Program  _59Obj = new _59_Program();
+                // _59Obj.Main(); 
+
+                _60_Program  _60Obj = new _60_Program();
+                _60Obj.Main(); 
+
+
         }
 }
+

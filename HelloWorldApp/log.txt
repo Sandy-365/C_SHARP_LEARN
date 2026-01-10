@@ -1,1 +1,0 @@
-29-12-2025 12:58:06 | FileNotFoundException  |  Could not find file 'C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\HelloWorldApp\account.txt'. 
