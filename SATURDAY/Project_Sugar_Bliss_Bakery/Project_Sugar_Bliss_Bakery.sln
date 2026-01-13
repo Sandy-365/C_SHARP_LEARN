@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project_Sugar_Bliss_Bakery", "Project_Sugar_Bliss_Bakery.csproj", "{EDAA53FD-1219-5C36-A3A0-0F6F8E6237A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDAA53FD-1219-5C36-A3A0-0F6F8E6237A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDAA53FD-1219-5C36-A3A0-0F6F8E6237A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDAA53FD-1219-5C36-A3A0-0F6F8E6237A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDAA53FD-1219-5C36-A3A0-0F6F8E6237A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3EE12061-8F0F-462F-9BC6-B73436716E70}
+	EndGlobalSection
+EndGlobal
