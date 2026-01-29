@@ -1,0 +1,15 @@
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\SQL_DATABASE\C-Sharp\bin\Debug\net10.0\C-Sharp.exe
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\SQL_DATABASE\C-Sharp\bin\Debug\net10.0\C-Sharp.deps.json
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\SQL_DATABASE\C-Sharp\bin\Debug\net10.0\C-Sharp.runtimeconfig.json
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\SQL_DATABASE\C-Sharp\bin\Debug\net10.0\C-Sharp.dll
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\SQL_DATABASE\C-Sharp\bin\Debug\net10.0\C-Sharp.pdb
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\SQL_DATABASE\C-Sharp\obj\Debug\net10.0\C-Sharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\SQL_DATABASE\C-Sharp\obj\Debug\net10.0\C-Sharp.AssemblyInfoInputs.cache
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\SQL_DATABASE\C-Sharp\obj\Debug\net10.0\C-Sharp.AssemblyInfo.cs
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\SQL_DATABASE\C-Sharp\obj\Debug\net10.0\C-Sharp.csproj.CoreCompileInputs.cache
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\SQL_DATABASE\C-Sharp\obj\Debug\net10.0\C-Sharp.sourcelink.json
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\SQL_DATABASE\C-Sharp\obj\Debug\net10.0\C-Sharp.dll
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\SQL_DATABASE\C-Sharp\obj\Debug\net10.0\refint\C-Sharp.dll
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\SQL_DATABASE\C-Sharp\obj\Debug\net10.0\C-Sharp.pdb
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\SQL_DATABASE\C-Sharp\obj\Debug\net10.0\C-Sharp.genruntimeconfig.cache
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\SQL_DATABASE\C-Sharp\obj\Debug\net10.0\ref\C-Sharp.dll

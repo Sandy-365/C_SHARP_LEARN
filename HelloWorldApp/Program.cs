@@ -1,5 +1,4 @@
-﻿
-using System;
+﻿using System;
 using System.Text.RegularExpressions;
 using static System.Math;
 
@@ -588,7 +587,7 @@ class HelloWorld
 
                 // var data2 = new { Id = 1, Name = "sandeep" };
                 // Console.WriteLine("\nType of 'var data2 = new (1,\"sandeep\");' is " + data2.GetType());
-                
+
 
                 // _43_Tuple _43Obj = new _43_Tuple();
                 // _43Obj.Main();
@@ -647,10 +646,67 @@ class HelloWorld
                 // _59_Program  _59Obj = new _59_Program();
                 // _59Obj.Main(); 
 
-                _60_Program  _60Obj = new _60_Program();
-                _60Obj.Main(); 
+                // _60_Program  _60Obj = new _60_Program();
+                // _60Obj.Main(); 
+
+                // _62_Program  _62Obj = new _62_Program();
+                // _62Obj.Main(); 
 
 
+
+                // _63_GAME _63Obj = new _63_GAME();
+                // _63Obj.Main();
+
+
+                // _64_Threading _64Obj = new _64_Threading();
+                // _64Obj.Main();
+
+
+                // _65_Parallel _65Obj = new _65_Parallel();
+                // _65Obj.Main();
+
+
+                // _66_Async _66Obj = new _66_Async();
+                // _66Obj.Main();
+
+
+                // _67_Async_Task _67Obj = new _67_Async_Task();
+                // _67Obj.Main();
+
+
+                // _68_Thread_Diag _68Obj = new _68_Thread_Diag();
+                // _68Obj.Main();
+
+
+                // _69 
+
+                // _69_Program obj = new _69_Program();
+                // obj.Main();
+
+                // _70_MyCar.Program pobj = new _70_MyCar.Program();
+                // pobj.Main();
+
+
+                // _71_Program obj = new _71_Program();
+                // obj.Main();
+
+                // _72_Program obj = new _72_Program();
+                // obj.Main();
+
+
+                // _73_Program obj = new _73_Program();
+                // obj.Main();
+
+                // Console.WriteLine(Environment.Version);
+
+                // _74_Reflection obj = new _74_Reflection();
+                // obj.Main();
+
+                // _75_Main obj = new _75_Main();
+                // obj.Main();
+
+                _T_1_CustomSorting obj = new _T_1_CustomSorting();
+                obj.Main();
+                
         }
 }
-

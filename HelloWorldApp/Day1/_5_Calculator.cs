@@ -1,11 +1,11 @@
 /*
 NOTE:
 
-This class implements a **simple Calculator application**
+This class implements a **simple _5_Calculator application**
 using Object-Oriented Programming concepts in C#.
 
 ==============================================================
-CLASS: Calculator
+CLASS: _5_Calculator
 ==============================================================
 Purpose:
 Performs basic arithmetic operations on two integers
@@ -21,7 +21,7 @@ result  → Stores result of calculation
 These are instance variables used across methods.
 
 ==============================================================
-CONSTRUCTOR: Calculator()
+CONSTRUCTOR: _5_Calculator()
 ==============================================================
 Purpose:
 - Displays a welcome message when the calculator object
@@ -41,7 +41,7 @@ Purpose:
 - Reused by all arithmetic operation methods.
 
 Access Modifier:
-- private → Accessible only within the Calculator class.
+- private → Accessible only within the _5_Calculator class.
 
 Concepts Used:
 - Code reuse
@@ -99,13 +99,13 @@ methods, and public operation methods.
 */
 
 
-class Calculator
+class _5_Calculator
 {
     int num1;
     int num2;
     int result;
 
-    public Calculator()
+    public _5_Calculator()
     {
         Console.WriteLine("\n\n\t\t-----------------------------------WELCOME TO CALCULATOR APP----------------------");
     }

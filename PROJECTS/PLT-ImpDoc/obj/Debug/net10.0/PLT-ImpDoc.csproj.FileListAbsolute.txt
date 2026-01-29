@@ -1,0 +1,5 @@
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\PLT-ImpDoc\obj\Debug\net10.0\PLT-ImpDoc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\PLT-ImpDoc\obj\Debug\net10.0\PLT-ImpDoc.AssemblyInfoInputs.cache
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\PLT-ImpDoc\obj\Debug\net10.0\PLT-ImpDoc.AssemblyInfo.cs
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\PLT-ImpDoc\obj\Debug\net10.0\PLT-ImpDoc.csproj.CoreCompileInputs.cache
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\PROJECTS\PLT-ImpDoc\obj\Debug\net10.0\PLT-ImpDoc.sourcelink.json
