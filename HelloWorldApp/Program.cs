@@ -702,10 +702,7 @@ class HelloWorld
                 // _74_Reflection obj = new _74_Reflection();
                 // obj.Main();
 
-                // _75_Main obj = new _75_Main();
-                // obj.Main();
-
-                _T_1_CustomSorting obj = new _T_1_CustomSorting();
+                _75_Main obj = new _75_Main();
                 obj.Main();
                 
         }
