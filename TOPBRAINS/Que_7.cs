@@ -1,6 +1,6 @@
 using System;
 
-class Que_7
+class Question_Number_7
 {
     static void SwapRef(ref int a, ref int b)
     {

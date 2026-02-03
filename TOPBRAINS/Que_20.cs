@@ -60,7 +60,7 @@ class Triangle : Shape
     }
 }
 
-class Que_20
+class Question_Number_20
 {
     public static void main()
     {

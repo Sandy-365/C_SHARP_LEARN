@@ -1,6 +1,6 @@
 using System;
 
-class Que_16
+class Question_Number_16
 {
     static int GCD(int a, int b)
     {

@@ -2,7 +2,7 @@ using System;
 using System.Globalization;
 using System.Text;
 
-class Que_3
+class Question_Number_3
 {
     public static void main()
     {

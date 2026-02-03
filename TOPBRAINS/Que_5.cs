@@ -1,7 +1,7 @@
 using System;
 using System.IO;
 
-class Que_5
+class Question_Number_5
 {
     public static void main()
     {

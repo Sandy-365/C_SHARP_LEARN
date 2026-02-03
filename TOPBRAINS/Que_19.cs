@@ -55,7 +55,7 @@ class CommissionEmployee : Employee
     }
 }
 
-class Que_19
+class Question_Number_19
 {
     public static void main()
     {

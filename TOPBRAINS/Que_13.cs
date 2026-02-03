@@ -1,5 +1,5 @@
 using System;
-class Que_13
+class Question_Number_13
 {
     public static void main()
     {

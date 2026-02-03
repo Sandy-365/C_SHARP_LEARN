@@ -1,5 +1,5 @@
 using System;
-class Que_1
+class Question_Number_1
 {
     static int SumDigits(int n)
     {

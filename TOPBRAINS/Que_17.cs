@@ -1,6 +1,6 @@
 using System;
 
-class Que_17
+class Question_Number_17
 {
     public static void main()
     {

@@ -1,7 +1,7 @@
 using System;
 using System.Text;
 
-class Que_2
+class Question_Number_2
 {
     static bool IsVowel(char c)
     {

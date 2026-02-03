@@ -20,7 +20,7 @@ class Student : IComparable<Student>
 
 
 
-class Que_4
+class Question_Number_4
 {
     public static void main()
     {

@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-class Que_6
+class Question_Number_6
 {
     public static void main()
     {

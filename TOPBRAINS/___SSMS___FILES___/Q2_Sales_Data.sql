@@ -93,14 +93,6 @@ INSERT INTO OrderDetails VALUES
 
 /*
 Question 1 – Normalization (Design Thinking)
-
-The Sales_Raw table violates normalization rules.
-
-Tasks:
-    Identify at least three normalization problems
-    Redesign the database into proper normalized tables (minimum 3NF)
-    Write CREATE TABLE statements for the new design
-(No data migration required, only structure)
 */
 select * from CustomerMaster;
 select * from ProductsMaster;
@@ -111,18 +103,13 @@ select * from OrdersMaster;
 
 /*
 Question 2 – Third Highest Total Sales (Analytical Query)
-Each order may contain multiple products.
-
-Task:
-Write a SQL query to find the third highest total sales amount, where:
-    Total Sales = Quantity × Unit Price (for all products in an order)
 */
 WITH OrderTotal AS
 (
     SELECT
         o.OrderID,
         SUM(od.Quantity * p.UnitPrice) AS TotalSales
-    FROM OrdersMaster o0
+    FROM OrdersMaster o
     JOIN OrderDetails od ON o.OrderID = od.OrderID
     JOIN ProductsMaster p ON od.ProductID = p.ProductID
     GROUP BY o.OrderID
@@ -137,14 +124,6 @@ FETCH NEXT 1 ROW ONLY
 
 /*
 Question 3 – GROUP BY & HAVING (Business Rule)
-    Management wants to identify salespersons who generated high revenue.
-
-Task:
-    Write a query to list SalesPerson names whose total sales amount is greater than ₹60,000.
-
-Use:
-    GROUP BY
-    HAVING
 */
 SELECT SP.SalesPersonName, COUNT(PM.ProductID) AS 'TOTAL PRODUCT SOLD',SUM(OD.Quantity * PM.UnitPrice) AS 'TOTAL SOLD'
 FROM [dbo].[SalesPersonsMaster] SP
@@ -154,4 +133,16 @@ JOIN ProductsMaster PM ON OD.ProductID = PM.ProductID
 GROUP BY SP.SalesPersonName
 HAVING  SUM(OD.Quantity * PM.UnitPrice) > 9000;
 
+
+
+/*
+QUESTION 5 – STRING & DATE FUNCTIONS
+*/
+SELECT
+    UPPER(C.CustomerName) AS CustomerName,
+    MONTH(OM.OrderDate) AS OrderMonth,
+    OM.OrderDate
+FROM CustomerMaster C
+JOIN OrdersMaster OM ON C.CustomerID = OM.CustomerID
+WHERE MONTH(OM.OrderDate) = 1;
 

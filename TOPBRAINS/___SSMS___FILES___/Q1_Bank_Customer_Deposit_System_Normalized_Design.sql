@@ -120,7 +120,7 @@ GROUP BY
     YEAR(TransactionDate)
 HAVING SUM(Amount) > 50000;
 
-
+Select * from Bonus
 
 ----------------------------------Q3-----------------------------
 SELECT
