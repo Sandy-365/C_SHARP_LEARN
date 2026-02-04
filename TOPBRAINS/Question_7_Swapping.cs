@@ -1,3 +1,17 @@
+/*
+Question 7
+Swapping
+
+Description
+Ref / Out – Swap Without Temp
+Swap two numbers using:
+
+·        Method 1: ref
+
+·        Method 2: out
+*/
+
+
 using System;
 
 class Question_Number_7

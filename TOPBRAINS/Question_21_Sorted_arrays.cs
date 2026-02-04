@@ -1,3 +1,19 @@
+/*
+Question 21
+Sorted arrays
+
+Description
+Merge two already-sorted arrays into a single sorted array.
+Implement it as a generic method using the constraint:
+where T : IComparable<T>
+
+Input: a (T[]), b (T[])
+Output: merged (T[])
+
+Constraints:
+0 <= a.Length + b.Length <= 2*10^5
+*/
+
 using System;
 
 class Question_Number_21

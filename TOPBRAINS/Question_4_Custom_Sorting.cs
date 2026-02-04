@@ -1,3 +1,21 @@
+/*
+Question 4
+Custom Sorting
+
+Description
+Custom Sorting Using IComparer
+You receive a list of "Student" objects (Name, Age, Marks).
+Sort them by:
+1️⃣ Highest Marks
+2️⃣ If equal → Youngest Age
+
+Input
+List<Student>
+
+Output
+Sorted List<Student>
+*/
+
 using System;
 using System.Collections.Generic;
 

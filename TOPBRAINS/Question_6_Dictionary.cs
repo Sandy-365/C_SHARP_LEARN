@@ -1,3 +1,19 @@
+/*
+Question 6
+Dictionary
+
+Description
+Dictionary Lookup
+Given a dictionary of (EmployeeId, Salary) and a list of EmployeeIds, return the total salary.
+
+Input
+Ids: {1, 4, 5}
+Dictionary: {1:20000, 4:40000, 5:15000}
+
+Output
+75000
+*/
+
 using System;
 using System.Collections.Generic;
 

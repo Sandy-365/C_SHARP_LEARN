@@ -1,3 +1,25 @@
+/*
+Question 20
+Strings
+
+Description
+Compute the total area of shapes.
+Each input string is one shape:
+- "C r"      Circle (radius r)
+- "R w h"    Rectangle (width w, height h)
+- "T b h"    Triangle (base b, height h), area = 0.5*b*h
+
+Use an abstract base class and an interface for Area.
+Return total area rounded to 2 decimals (AwayFromZero).
+
+Input: shapes (string[])
+Output: totalArea (double)
+
+Constraints:
+0 <= shapes.Length <= 1e5
+0 <= dimensions <= 1e6
+*/
+
 using System;
 using System.Collections.Generic;
 

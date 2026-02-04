@@ -1,3 +1,19 @@
+/*
+Question 5
+File I/O
+
+Description
+File I/O – Read & Filter Logs
+You have a log file containing mixed INFO, ERROR, WARN logs.
+Extract only ERROR logs and save to a new file.
+
+Input
+log.txt
+
+Output
+error.txt
+*/
+
 using System;
 using System.IO;
 

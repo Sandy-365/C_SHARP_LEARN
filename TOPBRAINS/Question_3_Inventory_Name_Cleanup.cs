@@ -1,3 +1,24 @@
+/*
+Question 3
+Inventory Name Cleanup
+
+Description
+Inventory Name Cleanup
+Problem
+Given a product name string, remove:
+
+·        All duplicate consecutive characters
+
+·        Trim extra spaces
+
+·        Convert to TitleCase
+
+Input
+" llapppptop bag "
+
+Output
+"Laptop Bag"
+*/
 using System;
 using System.Globalization;
 using System.Text;

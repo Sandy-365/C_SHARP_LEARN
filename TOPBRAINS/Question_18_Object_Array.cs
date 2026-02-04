@@ -1,3 +1,18 @@
+/*
+Question 18
+Object Array
+
+Description
+Given an object array that may contain ints, strings, bools, nulls, etc., sum only the integer values.
+Use pattern matching (is int x).
+
+Input: values (object[])
+Output: sum (int)
+
+Constraints:
+0 <= values.Length <= 1e5
+*/
+
 using System;
 
 class Question_Number_18

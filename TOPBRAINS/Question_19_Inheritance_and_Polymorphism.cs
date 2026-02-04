@@ -1,3 +1,23 @@
+/*
+Question 19
+Inheritance and Polymorphism
+
+Description
+Compute total payroll using inheritance and polymorphism.
+Each input string describes an employee:
+- "H rate hours"           (HourlyEmployee) pay = rate * hours
+- "S monthlySalary"        (SalariedEmployee) pay = monthlySalary
+- "C commission baseSalary" (CommissionEmployee) pay = baseSalary + commission
+
+Return the total pay as a decimal rounded to 2 decimals.
+
+Input: employees (string[])
+Output: totalPay (decimal)
+
+Constraints:
+0 <= employees.Length <= 1e5
+*/
+
 using System;
 using System.Collections.Generic;
 

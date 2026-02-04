@@ -1,3 +1,18 @@
+/*
+Question 23
+Extension Method
+
+Description
+Implement a custom DistinctBy extension method (do NOT use LINQ's DistinctBy).
+Input items are strings formatted as "id:name".
+Return the names for the first occurrence of each distinct id (preserve input order).
+
+Input: items (string[])
+Output: distinctNames (string[])
+
+Constraints:
+0 <= items.Length <= 2*10^5
+*/
 using System;
 using System.Collections.Generic;
 

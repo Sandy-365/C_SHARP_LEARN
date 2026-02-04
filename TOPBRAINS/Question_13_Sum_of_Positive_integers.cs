@@ -1,3 +1,20 @@
+/*
+Question 13
+Sum of Positive integers
+
+Description
+Given an integer array, sum only positive numbers until you reach 0.
+- If an element is 0, stop processing (break).
+- If an element is negative, ignore it (continue).
+
+Input: nums (int[])
+Output: sum (int)
+
+Constraints:
+0 <= nums.Length <= 1e5
+-1e9 <= nums[i] <= 1e9
+*/
+
 using System;
 class Question_Number_13
 {
