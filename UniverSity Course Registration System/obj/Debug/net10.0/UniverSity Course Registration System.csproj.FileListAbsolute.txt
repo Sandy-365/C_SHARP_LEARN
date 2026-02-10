@@ -1,0 +1,14 @@
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\Assesment\UniverSity Course Registration System\UniverSity Course Registration System\bin\Debug\net10.0\UniverSity Course Registration System.exe
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\Assesment\UniverSity Course Registration System\UniverSity Course Registration System\bin\Debug\net10.0\UniverSity Course Registration System.deps.json
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\Assesment\UniverSity Course Registration System\UniverSity Course Registration System\bin\Debug\net10.0\UniverSity Course Registration System.runtimeconfig.json
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\Assesment\UniverSity Course Registration System\UniverSity Course Registration System\bin\Debug\net10.0\UniverSity Course Registration System.dll
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\Assesment\UniverSity Course Registration System\UniverSity Course Registration System\bin\Debug\net10.0\UniverSity Course Registration System.pdb
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\Assesment\UniverSity Course Registration System\UniverSity Course Registration System\obj\Debug\net10.0\UniverSity Course Registration System.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\Assesment\UniverSity Course Registration System\UniverSity Course Registration System\obj\Debug\net10.0\UniverSity Course Registration System.AssemblyInfoInputs.cache
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\Assesment\UniverSity Course Registration System\UniverSity Course Registration System\obj\Debug\net10.0\UniverSity Course Registration System.AssemblyInfo.cs
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\Assesment\UniverSity Course Registration System\UniverSity Course Registration System\obj\Debug\net10.0\UniverSity Course Registration System.csproj.CoreCompileInputs.cache
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\Assesment\UniverSity Course Registration System\UniverSity Course Registration System\obj\Debug\net10.0\UniverSity Course Registration System.dll
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\Assesment\UniverSity Course Registration System\UniverSity Course Registration System\obj\Debug\net10.0\refint\UniverSity Course Registration System.dll
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\Assesment\UniverSity Course Registration System\UniverSity Course Registration System\obj\Debug\net10.0\UniverSity Course Registration System.pdb
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\Assesment\UniverSity Course Registration System\UniverSity Course Registration System\obj\Debug\net10.0\UniverSity Course Registration System.genruntimeconfig.cache
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\Assesment\UniverSity Course Registration System\UniverSity Course Registration System\obj\Debug\net10.0\ref\UniverSity Course Registration System.dll
