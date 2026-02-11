@@ -1,0 +1,32 @@
+USE _1_MasterCampus;
+GO
+
+CREATE TRIGGER prevent_update
+ON dbo.CollegeMaster
+FOR UPDATE
+AS
+BEGIN
+    RAISERROR ('YOU CAN NOT UPDATE IN THIS TABLE', 16, 1);
+    ROLLBACK TRANSACTION;
+END;
+GO
+
+UPDATE dbo.CollegeMaster
+SET Location = 'Chennai';
+
+
+CREATE TRIGGER prevent_table_drop
+ON DATABASE
+FOR DROP_TABLE
+AS
+BEGIN
+	PRINT 'YOU CAN NOT DROP THE TABLE IN THIS DATABASE';
+	ROLLBACK;
+END;
+GO
+DROP TABLE [dbo].[CollegeMaster1]
+
+
+
+
+

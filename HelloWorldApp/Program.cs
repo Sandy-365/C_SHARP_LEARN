@@ -702,8 +702,14 @@ class HelloWorld
                 // _74_Reflection obj = new _74_Reflection();
                 // obj.Main();
 
-                _75_Main obj = new _75_Main();
-                obj.Main();
+                // _75_Main obj = new _75_Main();
+                // obj.Main();
+
+                // Meeting_6 obj = new Meeting_6();
+                // obj.main();
                 
+
+                drawing obj = new drawing();
+                obj.main();
         }
 }

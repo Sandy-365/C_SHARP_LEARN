@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sagar\\Desktop\\CAPGEM-TRAIN\\NOTES\\__CODING__\\SQL_DATABASE\\ADO_NET\\ADO_PROGRAMS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{742587B3-F56C-3761-6881-D48B7DE76B18}|ADO_PROGRAMS\\ADO_PROGRAMS.csproj|c:\\users\\sagar\\desktop\\capgem-train\\notes\\__coding__\\sql_database\\ado_net\\ado_programs\\ado_programs\\day4\\_12_ip_based.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{742587B3-F56C-3761-6881-D48B7DE76B18}|ADO_PROGRAMS\\ADO_PROGRAMS.csproj|solutionrelative:ado_programs\\day4\\_12_ip_based.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{742587B3-F56C-3761-6881-D48B7DE76B18}|ADO_PROGRAMS\\ADO_PROGRAMS.csproj|c:\\users\\sagar\\desktop\\capgem-train\\notes\\__coding__\\sql_database\\ado_net\\ado_programs\\ado_programs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{742587B3-F56C-3761-6881-D48B7DE76B18}|ADO_PROGRAMS\\ADO_PROGRAMS.csproj|solutionrelative:ado_programs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sagar\\Desktop\\CAPGEM-TRAIN\\NOTES\\__CODING__\\SQL_DATABASE\\ADO_NET\\ADO_PROGRAMS\\ADO_PROGRAMS\\Program.cs",
+              "RelativeDocumentMoniker": "ADO_PROGRAMS\\Program.cs",
+              "ToolTip": "C:\\Users\\sagar\\Desktop\\CAPGEM-TRAIN\\NOTES\\__CODING__\\SQL_DATABASE\\ADO_NET\\ADO_PROGRAMS\\ADO_PROGRAMS\\Program.cs",
+              "RelativeToolTip": "ADO_PROGRAMS\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAiwBYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T07:03:40.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_12_Ip_Based.cs",
+              "DocumentMoniker": "C:\\Users\\sagar\\Desktop\\CAPGEM-TRAIN\\NOTES\\__CODING__\\SQL_DATABASE\\ADO_NET\\ADO_PROGRAMS\\ADO_PROGRAMS\\Day4\\_12_Ip_Based.cs",
+              "RelativeDocumentMoniker": "ADO_PROGRAMS\\Day4\\_12_Ip_Based.cs",
+              "ToolTip": "C:\\Users\\sagar\\Desktop\\CAPGEM-TRAIN\\NOTES\\__CODING__\\SQL_DATABASE\\ADO_NET\\ADO_PROGRAMS\\ADO_PROGRAMS\\Day4\\_12_Ip_Based.cs",
+              "RelativeToolTip": "ADO_PROGRAMS\\Day4\\_12_Ip_Based.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAUwAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T07:03:29.02Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
