@@ -1,0 +1,86 @@
+{
+  "scan_time": "2026-02-12T23:41:54.8785864+05:30",
+  "computer": "SANDY",
+  "user": "sagar",
+  "path": "C:\\Users\\sagar\\Desktop\\CAPGEM-TRAIN\\NOTES\\__CODING__\\PRACTICE",
+  "stats": {
+    "total_files": 72,
+    "total_folders": 21,
+    "total_size_bytes": 1208803,
+    "total_size_mb": 1.15
+  },
+  "files": [
+    {
+      "name": "PRACTICE.csproj",
+      "path": "\\PRACTICE.csproj",
+      "size": 334,
+      "modified": "2026-02-11T19:09:05.7936418+05:30"
+    },
+    {
+      "name": "Program.cs",
+      "path": "\\Program.cs",
+      "size": 2885,
+      "modified": "2026-02-12T23:41:45.0651189+05:30"
+    },
+    {
+      "name": "temp_Net.cs",
+      "path": "\\temp_Net.cs",
+      "size": 5328,
+      "modified": "2026-02-12T23:17:14.7318993+05:30"
+    },
+    {
+      "name": "PRACTICE.csproj.nuget.dgspec.json",
+      "path": "\\obj\\PRACTICE.csproj.nuget.dgspec.json",
+      "size": 23095,
+      "modified": "2026-02-11T19:11:26.9759099+05:30"
+    },
+    {
+      "name": "PRACTICE.csproj.nuget.g.props",
+      "path": "\\obj\\PRACTICE.csproj.nuget.g.props",
+      "size": 1302,
+      "modified": "2026-02-07T01:52:43.9226375+05:30"
+    },
+    {
+      "name": "PRACTICE.csproj.nuget.g.targets",
+      "path": "\\obj\\PRACTICE.csproj.nuget.g.targets",
+      "size": 150,
+      "modified": "2026-02-07T01:52:43.9266393+05:30"
+    },
+    {
+      "name": "project.assets.json",
+      "path": "\\obj\\project.assets.json",
+      "size": 22464,
+      "modified": "2026-02-11T19:11:26.9513389+05:30"
+    },
+    {
+      "name": "project.nuget.cache",
+      "path": "\\obj\\project.nuget.cache",
+      "size": 230,
+      "modified": "2026-02-11T19:11:26.9662218+05:30"
+    },
+    {
+      "name": "questions.cs",
+      "path": "\\_0_STRING\\questions.cs",
+      "size": 2039,
+      "modified": "2026-02-12T21:42:37.3275671+05:30"
+    },
+    {
+      "name": "_1_Array.cs",
+      "path": "\\_1_COLLECTION\\_1_Array.cs",
+      "size": 965,
+      "modified": "2026-02-11T19:08:02.0226659+05:30"
+    }
+  ],
+  "folders": [
+    "\\bin",
+    "\\obj",
+    "\\_0_STRING",
+    "\\_1_COLLECTION",
+    "\\_2_LINQ",
+    "\\_3_Drawings",
+    "\\bin\\Debug",
+    "\\obj\\Debug",
+    "\\bin\\Debug\\net10.0",
+    "\\bin\\Debug\\net10.0-windows"
+  ]
+}

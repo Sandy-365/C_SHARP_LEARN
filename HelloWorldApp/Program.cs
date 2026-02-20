@@ -708,8 +708,5 @@ class HelloWorld
                 // Meeting_6 obj = new Meeting_6();
                 // obj.main();
                 
-
-                drawing obj = new drawing();
-                obj.main();
         }
 }
