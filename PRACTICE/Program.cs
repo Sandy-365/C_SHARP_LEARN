@@ -1,38 +1,87 @@
-﻿using System;
-using System.IO;
-using System.Text.Json;
-using System.Collections.Generic;
-
-class Student
-{
-    public int Id{get;set;}
-    public string Name{get;set;}
-    public float Height{get;set;}
-    public int Age{get;set;}
-}
+﻿
 class Program
 {
-    public static void Main(string[] args)
+    static void Main()
     {
-        List<Student> lis = new List<Student>
-        {
-            new Student{Id=1,Name="Sandeep",Height=175,Age=23},
-            new Student{Id=2,Name="Manish",Height=184,Age=21},
-            new Student{Id=3,Name="Ramjee",Height=179,Age=22},
-            new Student{Id=4,Name="Happy",Height=127,Age=20}
-        };
-        // var options = new JsonSerializerOptions{WriteIndented=true};
-        string json = JsonSerializer.Serialize(lis);
-        File.WriteAllText("student.json",json);
+        Console.WriteLine("===== NORMAL PARAMETER =====");
+        int a = 10;
+        NormalMethod(a);
+        Console.WriteLine($"After NormalMethod: {a}");
+        Console.WriteLine();
 
-        string data = File.ReadAllText("student.json");
-        List<Student> str = JsonSerializer.Deserialize<List<Student>>(data);
-        foreach(Student i in str)
-        {
-            Console.WriteLine(i.Id);
-        }
+        Console.WriteLine("===== REF PARAMETER =====");
+        int b = 10;
+        RefMethod(ref b);
+        Console.WriteLine($"After RefMethod: {b}");
+        Console.WriteLine();
+
+        Console.WriteLine("===== REF READONLY PARAMETER =====");
+        int c = 10;
+        RefReadonlyMethod(ref c);
+        Console.WriteLine($"After RefReadonlyMethod: {c}");
+        Console.ReadLine();
+    }
+
+
+    static void NormalMethod(int number)
+    {
+        number = number + 5;
+        Console.WriteLine($"Inside NormalMethod: {number}");
+    }
+
+    // 2️⃣ ref parameter (can modify original)
+    static void RefMethod(ref int number)
+    {
+        number = number + 5;
+        Console.WriteLine($"Inside RefMethod: {number}");
+    }
+
+    // 3️⃣ ref readonly parameter (cannot modify original)
+    static void RefReadonlyMethod(ref readonly int number)
+    {
+        Console.WriteLine($"Inside RefReadonlyMethod: {number}");
+
+        // number = number + 5; // ❌ Compile-time error
     }
 }
+
+
+
+// using System;
+// using System.IO;
+// using System.Text.Json;
+// using System.Collections.Generic;
+
+// class Student
+// {
+//     public int Id{get;set;}
+//     public string Name{get;set;}
+//     public float Height{get;set;}
+//     public int Age{get;set;}
+// }
+// class Program
+// {
+//     public static void Main(string[] args)
+//     {
+//         List<Student> lis = new List<Student>
+//         {
+//             new Student{Id=1,Name="Sandeep",Height=175,Age=23},
+//             new Student{Id=2,Name="Manish",Height=184,Age=21},
+//             new Student{Id=3,Name="Ramjee",Height=179,Age=22},
+//             new Student{Id=4,Name="Happy",Height=127,Age=20}
+//         };
+//         // var options = new JsonSerializerOptions{WriteIndented=true};
+//         string json = JsonSerializer.Serialize(lis);
+//         File.WriteAllText("student.json",json);
+
+//         string data = File.ReadAllText("student.json");
+//         List<Student> str = JsonSerializer.Deserialize<List<Student>>(data);
+//         foreach(Student i in str)
+//         {
+//             Console.WriteLine(i.Id);
+//         }
+//     }
+// }
 
 
 
