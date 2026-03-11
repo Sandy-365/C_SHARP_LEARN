@@ -1,0 +1,6 @@
+@_7_Change_Data_HttpClient_HostAddress = http://localhost:5053
+
+GET {{_7_Change_Data_HttpClient_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

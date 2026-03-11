@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "vzF3wJQ6Sgc=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sagar\\Desktop\\CAPGEM-TRAIN\\NOTES\\__CODING__\\API\\_5_Versioning\\_5_Versioning.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sagar\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\5.1.0\\microsoft.aspnetcore.mvc.versioning.5.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

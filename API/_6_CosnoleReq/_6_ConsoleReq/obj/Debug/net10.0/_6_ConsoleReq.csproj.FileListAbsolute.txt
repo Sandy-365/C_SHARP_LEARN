@@ -1,0 +1,15 @@
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\API\_6_CosnoleReq\_6_ConsoleReq\bin\Debug\net10.0\_6_ConsoleReq.exe
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\API\_6_CosnoleReq\_6_ConsoleReq\bin\Debug\net10.0\_6_ConsoleReq.deps.json
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\API\_6_CosnoleReq\_6_ConsoleReq\bin\Debug\net10.0\_6_ConsoleReq.runtimeconfig.json
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\API\_6_CosnoleReq\_6_ConsoleReq\bin\Debug\net10.0\_6_ConsoleReq.dll
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\API\_6_CosnoleReq\_6_ConsoleReq\bin\Debug\net10.0\_6_ConsoleReq.pdb
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\API\_6_CosnoleReq\_6_ConsoleReq\obj\Debug\net10.0\_6_ConsoleReq.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\API\_6_CosnoleReq\_6_ConsoleReq\obj\Debug\net10.0\_6_ConsoleReq.AssemblyInfoInputs.cache
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\API\_6_CosnoleReq\_6_ConsoleReq\obj\Debug\net10.0\_6_ConsoleReq.AssemblyInfo.cs
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\API\_6_CosnoleReq\_6_ConsoleReq\obj\Debug\net10.0\_6_ConsoleReq.csproj.CoreCompileInputs.cache
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\API\_6_CosnoleReq\_6_ConsoleReq\obj\Debug\net10.0\_6_ConsoleReq.sourcelink.json
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\API\_6_CosnoleReq\_6_ConsoleReq\obj\Debug\net10.0\_6_ConsoleReq.dll
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\API\_6_CosnoleReq\_6_ConsoleReq\obj\Debug\net10.0\refint\_6_ConsoleReq.dll
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\API\_6_CosnoleReq\_6_ConsoleReq\obj\Debug\net10.0\_6_ConsoleReq.pdb
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\API\_6_CosnoleReq\_6_ConsoleReq\obj\Debug\net10.0\_6_ConsoleReq.genruntimeconfig.cache
+C:\Users\sagar\Desktop\CAPGEM-TRAIN\NOTES\__CODING__\API\_6_CosnoleReq\_6_ConsoleReq\obj\Debug\net10.0\ref\_6_ConsoleReq.dll

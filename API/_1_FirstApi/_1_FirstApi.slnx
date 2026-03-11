@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="_1_FirstApi/_1_FirstApi.csproj" />
+  <Project Path="_2_StudentApi/_2_DTO_StudentApi.csproj" Id="54268084-3f80-4d35-82f8-8ea042f2f67b" />
+</Solution>

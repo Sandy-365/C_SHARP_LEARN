@@ -1,0 +1,6 @@
+@_8_Task_CollegeHostel_HostAddress = http://localhost:5048
+
+GET {{_8_Task_CollegeHostel_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
