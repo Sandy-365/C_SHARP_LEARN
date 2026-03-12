@@ -1,0 +1,6 @@
+@_10_Task_OneToOne_JWT_HostAddress = http://localhost:5236
+
+GET {{_10_Task_OneToOne_JWT_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

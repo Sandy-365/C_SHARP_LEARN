@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "FyU+j2gzjls=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sagar\\Desktop\\CAPGEM-TRAIN\\NOTES\\__CODING__\\API\\_11_Custom_MiddleWare\\_11_Custom_MiddleWare.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sagar\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.3\\microsoft.aspnetcore.openapi.10.0.3.nupkg.sha512",
+    "C:\\Users\\sagar\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
